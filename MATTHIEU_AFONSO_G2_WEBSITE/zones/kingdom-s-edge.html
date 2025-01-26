@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zone - Frontières du Royaume</title>
+    <link href="https://fonts.cdnfonts.com/css/trajan-pro" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style_site.css">
+    <link rel="stylesheet" href="../css/css_lightmode.css">
+</head>
+
+<body>
+    <ul class="ul">
+        <li class="li"><a class="active" href="../menu_principal.html">Retour</a></li>
+        <li class="li"><a href="#top">Accueil</a></li>
+        <li class="li"><a href="#map">Carte</a></li>
+        <li class="li"><a href="#lore">Lore</a></li>
+        <li class="li"><a href="#connexion">Connexions</a></li>
+        <li class="li"><a href="#ennemis">Ennemis</a></li>
+        <li class="li"><a href="#boss">Boss</a></li>
+        <li class="li"><a href="#evenement">Évènements</a></li>
+        <li class="li"><a href="#video">Vidéos</a></li>
+        <li class="li"><button id="toggle-lightmode" class="lightmode-btn-header">Activer le mode clair</button></li>
+    </ul>
+
+    <div class="container" id="top">
+        
+        <header class="banner-header">
+            <img src="../images/edge_image.png" alt="Bannière Frontières du Royaume" class="banner-image">
+            <img src="../images/edge.png" alt="Frontières du Royaume" class="main-image" width="500">
+            <h1 class="titre_page">Frontières du Royaume</h1>
+            <h2 class="sous_titre">Une région se situant le plus à l’est de Hallownest, à côté de la Cité Des Larmes. Ses falaises sont envahies par une chute constante de cendres blanches.
+            </h2>
+        </header>
+
+        <!-- Map -->
+        <section id="map">
+            <h2 class="titre_section">Carte</h2>
+            <img src="../images/edge_carte.png" alt="Carte des Frontières du Royaume">
+        </section>
+        
+        <!-- Lore de la zone -->
+        <section class="lore" id="lore">
+            <h2 class="titre_section">Lore</h2>
+            <p>Les Frontières Du Royaume est la région où le Roi Pâle est <span class="info">arrivé sous la forme d'un grand Wyrm</span> avant la fondation du royaume. Il a <span class="info">perdu sa carapace</span> dans la partie est des Frontières Du Royaume et s'est <span class="info">transformé en sa plus petite forme</span>. Son cadavre en décomposition est à <span class="info">l'origine des cendres</span> qui tombe sur les Frontières Du Royaume, qui est en fait <span class="info">une mue</span>.
+            <br><br>
+            Une fois le royaume établi et la Cité Des Larmes construite, les habitants de la ville semblaient <span class="info">hésiter à construire plus loin</span> dans les Frontières Du Royaume, apparemment <span class="info">tenus à distance par quelque chose</span>. À un moment donné, le <span class="info">Colisée Des Fous</span> a été construit dans le cadavre sculpté d'une <span class="info">ancienne bestiole morte</span> sur l'une des falaises. Il attirait des <span class="info">guerriers</span> de tous les coins pour s'affronter dans l'arène du Colisée.
+            </p>
+        </section>
+
+        <!-- Connexion -->
+        <section class="connexion" id="connexion">
+            <h2 class="titre_section">Connexions</h2>
+            <p>Les Frontières du Royaume sont reliées à ces zones :</p>
+            <ul>
+                <li class="lien"><a href="city-of-tears.html" class="lien">Cité des Larmes</a> </li>
+                <li class="lien"><a href="ancient-basin.html" class="lien">Bassin Ancestral</a> </li>
+                <li class="lien"><a href="the-hive.html" class="lien">La Ruche</a> </li>
+                <li class="lien"><a href="royal-waterways.html" class="lien">Voies d’Eau Royales</a> </li>
+                <li class="lien"><a href="colosseum_of_fools.html" class="lien">Colisée des Fous</a> </li>
+            </ul>
+        </section>
+
+        <!-- Ennemis -->
+        <section class="ennemis" id="ennemis">
+            <h2 class="titre_section">Ennemis</h2>
+            <ul>
+                <li>
+                    <h2>Belfly</h2>
+                    <img src="../monstres/frontieres_du_royaume/belfly.png" alt="Belfly" class="monstre">
+                    <p class="description_ennemi">Une créature possédant de fines ailes qui dissimulent un ventre très instable. Elles sonneront leur propre vie pour protéger leur territoire. Une créature coléreuse sans égard pour sa propre vie. Une créature qui ne connait pas la peur... peut-on vraiment l'appeler "proie" ?</p>
+                </li>
+                <li>
+                    <h2>Mouche Boursouflée</h2>
+                    <img src="../monstres/frontieres_du_royaume/mouche_boursouflee.png" alt="Mouche Boursouflée" class="monstre">
+                    <p class="description_ennemi">Une grande créature docile. Bourdonne paisiblement dans les cavernes qui se situent aux frontières du royaume. Ces créatures sont beaucoup trop lentes pour pouvoir vous échapper et beaucoup trop grandes pour pouvoir se cacher. Cette proie ne sera en aucun cas un défi pour vous, mais parfois c'est agréable d'éviter d'avoir à faire des efforts.</p>
+                </li>
+                <li>
+                    <h2>Grand Sautilleur</h2>
+                    <img src="../monstres/frontieres_du_royaume/grand_sautilleur.png" alt="Grand Sautilleur" class="monstre">
+                    <p class="description_ennemi">Une créature qui vit au bout du monde. Attaque en sautant sur ses proies pour les écraser sous son corps. Une adversaire digne de ce nom, étonnamment agile pour sa taille. Vous pouvez soit garder vos distances, soit essayer d'attaquer ses pattes quand elle saute.</p>
+                </li>
+                <li>
+                    <h2>Ruchelins</h2>
+                    <img src="../monstres/frontieres_du_royaume/ruchelins.png" alt="Ruchelins" class="monstre">
+                    <p class="description_ennemi">La plus petite créature de la ruche. Effectue uniquement des tâches simples. Faibles, mais nombreuses et qui travaillent très dur. Leurs petits corps velus sont remplis d’un liquide épais, doux et doré. C’est toujours une bonne idée d’avoir un peu de ce liquide sur vous, lorsque vous partez pour de longues chasses.</p>
+                </li>
+                <li>
+                    <h2>Sautilleur</h2>
+                    <img src="../monstres/frontieres_du_royaume/sautilleur.png" alt="Sautilleur" class="monstre">
+                    <p class="description_ennemi">Une créature qui saute sur ses proies. Utilise son appendice allongé et pointu pour aspirer les fluides vitaux. Le ventre de ce voleur est rempli du sang qu'il a aspiré du corps d'autres bêtes. Si vous le maintenez au-dessus d'un feu, son ventre va s'accroître jusqu'à ce qu'il explose en un geyser de fluides.</p>
+                </li>
+                <li>
+                    <h2>Aspid Sauvage</h2>
+                    <img src="../monstres/frontieres_du_royaume/aspid_sauvage.png" alt="Aspid Sauvage" class="monstre">
+                    <p class="description_ennemi">Forme ancestrale et plus sauvage des Aspids. Autrefois considérées comme une espèce disparut, elles ont réapparu aux frontières du royaume. Ces adversaires cruels vous embusqueront et vous attaqueront sans relâche avec leur venin brûlant. C'est étonnant que leur descendance soit si faible. Si je décide un jour de faire des enfants, j'espère qu'ils seront plus fort que moi...</p>
+                </li>
+                <li>
+                    <h2 class="grimm">Grimm Despote</h2>
+                    <img src="../monstres/frontieres_du_royaume/grimm_despote.png" alt="Grimm Despote" class="grimm_img" class="monstre">
+                    <p class="grimm" class="description_ennemi">Esprit puissant et dévoué de la Troupe de Grimm. Dans le cadre du Rituel, il rassemble des flammes écarlates avec sa torche. Il abandonnera la flamme une fois vaincu. Une étincelle de lumière rouge d'un rêve le plus sombre. Des cauchemars écarlates brillants et sauvages. Les visions danse et les femmes parlent. Brûlez le père, nourrissez l'enfant</p>
+                </li>
+            </ul>
+        </section>
+
+    <!-- Boss -->
+    <section class="boss" id="boss">
+        <h2 class="titre_section">Boss de la Zone</h2>
+    
+        <div class="boss-selector">
+            <!-- Boutons pour sélectionner les bosses -->
+            <input type="radio" id="HornetSentinelle" name="boss" checked>
+            <label for="HornetSentinelle" class="btn">Hornet Sentinelle</label>
+
+            <input type="radio" id="Markoth" name="boss" checked>
+            <label for="Markoth" class="btn">Markoth</label>
+
+            <div class="boss-info">
+                <!-- Boss 1 -->
+                <div class="boss-content" id="HornetSentinelle">
+                    <h2>Hornet Sentinelle</h2>
+                    <img src="../monstres/frontieres_du_royaume/hornet_sentinelle.png" alt="Hornet Sentinelle">
+                    <p>Hornet Sentinelle est la deuxième forme de Hornet. Elle défie le Chevalier à l'entrée de la Carapace Abandonnée aux Frontières Du Royaume pour tester sa détermination et sa force à vouloir sauver Hallownest. Elle déploie cette fois ci toute sa force et ses outils. 
+                    </p>
+                </div>
+
+                <!-- Boss 2 -->
+                <div class="boss-content" id="Markoth">
+                    <h2 class="boss_reve">Markoth</h2>
+                    <img src="../monstres/frontieres_du_royaume/markoth.png" alt="Markoth" class="boss_img_reve">
+                    <p class="boss_reve">Markoth est l'un des Guerrier des Rêves. Il faisait partis de la Tribu des Papillons de Nuit et était l'un des seuls à porter une arme, avec Chardon-de-vent. Il se rendit aux Frontières du Royaume pour s'isoler et méditer, dans l'espoir de découvrir "une vérité oubliée depuis longtemps". Markoth combattit tous ceux qui le menaçaient, quelles que soient leurs raisons. Il finit par mourir, sa dépouille n'ayant jamais été retrouvée, dans une grotte isolée des Frontières du Royaume.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Évènements -->
+    <section id="evenement">
+        <h2 class="titre_section">Évènements</h2>
+        <ul class="liste">
+            <li>Obtention de la Marque du roi</li>
+            <br>
+            <li>Accès au Colisée des Fous</li>
+            <li>Accès à la Carapace Abandonnée</li>
+            <br>
+            <li>Rencontre du Maître d’Aiguillon : Oro</li>
+            <li>Rencontre de Hornet</li>
+            <li>Rencontre de Bardoon</li>
+            <li>Rencontre de Monsieur Champignon #2</li>
+        </ul>
+    </section>
+
+        <!-- Vidéos -->
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/gg8wGHNixSg?si=5-Zi0KCtXfz_bmwj" class="lien_titre">Combat contre Hornet Sentinelle</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/gg8wGHNixSg?si=5-Zi0KCtXfz_bmwj" title="Vidéo du combat contre Hornet Sentinelle"></iframe>
+        </section>
+
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/2sDDuUAqaxU?si=QNS8Gx9m_ZXRitbZ" class="lien_titre">Combat contre Markoth</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/2sDDuUAqaxU?si=QNS8Gx9m_ZXRitbZ" title="Vidéo du combat contre Markoth"></iframe>
+        </section>
+
+        <!-- Citation -->
+        <footer>
+            <p class="quote">"Cet endroit cendreux est la tombe du Wyrm. J’ai entendu dire qu’il a perdu la vie, depuis bien longtemps. Mais qu’est-ce que la mort pour cet être ancien ? Je pense moi que c’est une transformation de plus. Ce royaume en perdition est le produit de l’être engendré par cet événement."<br><br>-Bardoon</p>
+        </footer>
+    </div>
+    <script src="../js/script_lightmode.js" defer></script>
+</body>
+</html>

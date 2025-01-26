@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zone - La Ruche</title>
+    <link href="https://fonts.cdnfonts.com/css/trajan-pro" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style_site.css">
+    <link rel="stylesheet" href="../css/css_lightmode.css">
+</head>
+
+<body>
+    <ul class="ul">
+        <li class="li"><a class="active" href="../menu_principal.html">Retour</a></li>
+        <li class="li"><a href="#top">Accueil</a></li>
+        <li class="li"><a href="#map">Carte</a></li>
+        <li class="li"><a href="#lore">Lore</a></li>
+        <li class="li"><a href="#connexion">Connexions</a></li>
+        <li class="li"><a href="#ennemis">Ennemis</a></li>
+        <li class="li"><a href="#boss">Boss</a></li>
+        <li class="li"><a href="#evenement">Évènements</a></li>
+        <li class="li"><a href="#video">Vidéos</a></li>
+        <li class="li"><button id="toggle-lightmode" class="lightmode-btn-header">Activer le mode clair</button></li>
+    </ul>
+
+    <div class="container" id="top">
+        
+        <header class="banner-header">
+            <img src="../images/hive_image.png" alt="Bannière La Ruche" class="banner-image">
+            <img src="../images/hive.png" alt="La Ruche" class="main-image" width="500">
+            <h1 class="titre_page">La Ruche</h1>
+            <h2 class="sous_titre">Une région avec une grande communauté d'abeilles cachée sous le royaume.            
+            </h2>
+        </header>
+
+        <!-- Map -->
+        <section id="map">
+            <h2 class="titre_section">Carte</h2>
+            <img src="../images/hive_carte.png" alt="Carte de La Ruche">
+        </section>
+        
+        <!-- Lore de la zone -->
+        <section class="lore" id="lore">
+            <h2 class="titre_section">Lore</h2>
+            <p>La Ruche est habitée par une <span class="info">espèce d'abeilles guerrières volantes</span>, dirigées par une <span class="info">Reine</span>. Bien que la colonie fasse partie d'Hallownest, ils sont restés séparés des affaires du royaume, <span class="info">hors des terres du Roi Pâle</span>. Pendant l'âge d'or d'Hallownest, les abeilles ont <span class="info">scellé tous les accès extérieurs</span>, sauf les accès pour les patrouilles occasionnelles des Ruchelins. Leur Reine devint un jour si grande qu'elle ne <span class="info">pouvait plus quitter</span> son domaine, et mourut. Après la perte de sa Reine, la Ruche s'est <span class="info">affaiblie</span> et a donc finalement été frappée par l'<span class="info">Infection</span>.
+            </p>
+        </section>
+
+        <!-- Connexion -->
+        <section class="connexion" id="connexion">
+            <h2 class="titre_section">Connexions</h2>
+            <p>La Ruche est reliée à cette zone :</p>
+            <ul>
+                <li class="lien"><a href="kingdom-s-edge.html" class="lien">Frontières du Royaume</a> </li>
+            </ul>
+        </section>
+
+        <!-- Ennemis -->
+        <section class="ennemis" id="ennemis">
+            <h2 class="titre_section">Ennemis</h2>
+            <ul>
+                <li>
+                    <h2>Soldat de la ruche</h2>
+                    <img src="../monstres/la_ruche/soldat_de_la_ruche.png" alt="Soldat de la ruche" class="monstre">
+                    <p class="description_ennemi">Une créature qui défend la ruche contre les intrus. Possède un dard extensible. -Des guerriers féroces et dévoués. Soyez prêt à les combattre jusqu’à la mort si vous prévoyez d’envahir leur territoire.</p>
+                </li>
+                <li>
+                    <h2>Ruchelins</h2>
+                    <img src="../monstres/la_ruche/ruchelins.png" alt="Ruchelins" class="monstre">
+                    <p class="description_ennemi">La plus petite créature de la ruche. Effectue uniquement des tâches simples. Faibles, mais nombreuses et qui travaillent très dur. Leurs petits corps velus sont remplis d’un liquide épais, doux et doré. C’est toujours une bonne idée d’avoir un peu de ce liquide sur vous, lorsque vous partez pour de longues chasses.</p>
+                </li>
+                <li>
+                    <h2>Gardien de la Ruche</h2>
+                    <img src="../monstres/la_ruche/gardien_de_la_ruche.png" alt="Gardien de la Ruche" class="monstre">
+                    <p class="description_ennemi">Une créature qui protège la ruche. Heurte les intrus avec son corps énorme. Comme ceux plus petits de leur espèce, le seul instinct qu’elles possèdent est de protéger la ruche et peu importe ce qui leur en coûtera. Un peu maladroites, ces créatures endommagent souvent les structures de la ruche lorsqu’elles attaquent des intrus. Ont-elles honte de cela ? J’ignore si elles peuvent ressentir ce genre de choses.</p>
+                </li>
+                <li>
+                    <h2>Carcasse d’Abeilles</h2>
+                    <img src="../monstres/la_ruche/carcasse_d_abeilles.png" alt="Carcasse d’Abeilles" class="monstre">
+                    <p class="description_ennemi">Une coquille vide et lâche. Son corps est envahi de ruchelins. Est-ce que les ruchelins ont fait leur nid trop près de ce pauvre insecte, ou est-ce que cet insecte s’est faufilé dans leur nid ? Quoi qu’il en soit, ils semblent parfaitement heureux ensemble.</p>
+                </li>
+                <li>
+                    <h2 class="grimm">Grimm Cauchemardesque</h2>
+                    <img src="../monstres/la_ruche/grimm_cauchemardesque.png" alt="Grimm Cauchemardesque" class="grimm_img" class="monstre">
+                    <p class="grimm" class="description_ennemi">Esprit cauchemardesque terrifiant de la Troupe de Grimm. Dans le cadre du Rituel, il rassemble des flammes écarlates avec sa torche. Il abandonnera la flamme une fois vaincu. Dansez et mourez et vivez à jamais, Des voix silencieuses crient et chantent, Présentez-vous devant le cœur sombre de la Troupe, Brûlez le Roi des cauchemars.</p>
+                </li>
+            </ul>
+        </section>
+
+    <!-- Boss -->
+    <section class="boss" id="boss">
+        <h2 class="titre_section">Boss de la Zone</h2>
+    
+        <div class="boss-selector">
+            <!-- Boutons pour sélectionner les bosses -->
+            <input type="radio" id="ChevalierDeLaRuche" name="boss" checked>
+            <label for="ChevalierDeLaRuche" class="btn">Chevalier de la Ruche</label>
+
+            <div class="boss-info">
+                <!-- Boss 1 -->
+                <div class="boss-content" id="ChevalierDeLaRuche">
+                    <h2>Chevalier de la Ruche</h2>
+                    <img src="../monstres/la_ruche/chevalier_de_la_ruche.png" alt="Chevalier de la Ruche">
+                    <p>Bien qu'il soit incapable de voler, le Chevalier de la Ruche est le plus vaillant et habile guerrier de la Ruche. Son rôle, dicté par l'intelligence distribuée de la colonie, est de protéger la Reine des Abeilles Vespa. Même après la mort de sa reine et la propagation de l'Infection dans leur domaine, le Chevalier de la Ruche est resté fidèle à son poste. Il espère aveuglément qu'elle se réveillera un jour pour faire renaître la Ruche.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Évènements -->
+    <section id="evenement">
+        <h2 class="titre_section">Évènements</h2>
+        <ul class="liste">
+            <li>Obtention d'un morceau de masque</li>
+            <br>
+            <li>Rencontre de la Reine des Abeilles Vespa</li>
+        </ul>
+    </section>
+
+        <!-- Vidéo -->
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/3GPLhCTQ3gA?si=T3oWKRJw5WHgsYrU" class="lien_titre">Combat contre le Chevalier de la Ruche</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/3GPLhCTQ3gA?si=T3oWKRJw5WHgsYrU" title="Vidéo du combat contre le Chevalier de la Ruche"></iframe>
+        </section>
+
+        <!-- Citation -->
+        <footer>
+            <p class="quote">"Bien que cette ruche existe au sein d’Hallownest, nous ne prenons aucunement part, dans sa tentative de perpétuation."<br><br>-Reine Des Abeilles Vespa</p>
+        </footer>
+    </div>
+    <script src="../js/script_lightmode.js" defer></script>
+</body>
+</html>

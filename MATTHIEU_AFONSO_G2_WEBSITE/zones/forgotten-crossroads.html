@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zone - Routes Oubliées</title>
+    <link href="https://fonts.cdnfonts.com/css/trajan-pro" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style_site.css">
+    <link rel="stylesheet" href="../css/css_lightmode.css">
+</head>
+
+<body>
+    <ul class="ul">
+        <li class="li"><a class="active" href="../menu_principal.html">Retour</a></li>
+        <li class="li"><a href="#top">Accueil</a></li>
+        <li class="li"><a href="#map">Carte</a></li>
+        <li class="li"><a href="#lore">Lore</a></li>
+        <li class="li"><a href="#connexion">Connexions</a></li>
+        <li class="li"><a href="#ennemis">Ennemis</a></li>
+        <li class="li"><a href="#boss">Boss</a></li>
+        <li class="li"><a href="#evenement">Évènements</a></li>
+        <li class="li"><a href="#video">Vidéos</a></li>
+        <li class="li"><button id="toggle-lightmode" class="lightmode-btn-header">Activer le mode clair</button></li>
+    </ul>
+
+    <div class="container" id="top">
+        
+        <header class="banner-header">
+            <img src="../images/cross_image.png" alt="Bannière Routes Oubliées" class="banner-image">
+            <img src="../images/cross.png" alt="Routes Oubliées" class="main-image" width="500">
+            <h1 class="titre_page">Routes Oubliées</h1>
+            <h2 class="sous_titre">Une région qui s'étend sous la ville de Dirtmouth. Elle permet de rejoindre de nombreuses autres régions d'Hallownest.</h2>
+        </header>
+
+        <!-- Map -->
+        <section id="map">
+            <h2 class="titre_section">Carte</h2>
+            <img src="../images/cross_carte.png" alt="Carte de Routes Oubliées">
+        </section>
+        
+        <!-- Lore de la zone -->
+        <section class="lore" id="lore">
+            <h2 class="titre_section">Lore</h2>
+            <p>Situées <span class="info">juste sous la surface</span>, les Routes Oubliées sont un ensemble de tunnels et de cavernes <span class="info">autrefois grouillants de vie</span>. De nombreux voyageurs et marchands les empruntaient afin de rejoindre les <span class="info">différentes régions</span> d'Hallownest qu'ils permettent d'atteindre. La <span class="info">Voie du Pèlerin</span>, une route menant à la Cité des Larmes, débute dans l'Ouest de la zone. Avec la propagation de L'<span class="info">Infection</span>, les voyageurs cessèrent peu à peu d'utiliser ces routes. Seules les <span class="info">bêtes sauvages</span> et les citoyens, <span class="info">désormais fous</span>, d'Hallownest arpentent encore ces tunnels vides.</p>
+        </section>
+
+        <!-- Connexion -->
+        <section class="connexion" id="connexion">
+            <h2 class="titre_section">Connexions</h2>
+            <p>Les Routes Oubliées sont reliées à ces zones :</p>
+            <ul>
+                <li class="lien"><a href="city-of-tears.html" class="lien">Cité des Larmes</a> </li>
+                <li class="lien"><a href="crystal-peak.html" class="lien">Mont Cristal</a> </li>
+                <li class="lien"><a href="dirtmouth.html" class="lien">Dirtmouth</a> </li>
+                <li class="lien"><a href="fog-canyon.html" class="lien">Brumes-Canyon</a> </li>
+                <li class="lien"><a href="fungal-wastes.html" class="lien">Caverne Nocive</a> </li>
+                <li class="lien"><a href="greenpath.html" class="lien">Vertchemin</a> </li>
+                <li class="lien"><a href="resting-grounds.html" class="lien">Repos Éternel</a> </li>
+            </ul>
+        </section>
+
+        <!-- Ennemis -->
+        <section class="ennemis" id="ennemis">
+            <h2 class="titre_section">Ennemis</h2>
+            <ul>
+                <li>
+                    <h2>Nouveau-né Aspid</h2>
+                    <img src="../monstres/forgotten_crossroads/nouveau-ne_aspid.png" alt="Nouveau-né Aspid" class="monstre">
+                    <p class="description_ennemi">Des créatures venant tout juste de naître. Ces jeunes aspids attaquent instinctivement les intrus. Ces petits sont nés pour tuer ! Cependant, ce ne sont que de jeunes aspids que vous pouvez facilement broyer entre vos dents.Restez prudent de ne pas vous laisser submerger par leurs très grand nombre.</p>
+                </li>
+                <li>
+                    <h2>Aspid Chasseresse</h2>
+                    <img src="../monstres/forgotten_crossroads/aspid_chasseresse.png" alt="Aspid Chasseresse" class="monstre">
+                    <p class="description_ennemi">Une créature chassant souvent en groupe. Terrasse ses proies en crachant un liquide corrosif. Des prédateurs astucieux qui essaieront de vous tuer à distance. Chargez dans le tas et découpez-les. Vous verrez que ce ne sont pas des créatures si rusées, une fois qu'elles sont mortes.</p>
+                </li>
+                <li>
+                    <h2>Mère Aspid</h2>
+                    <img src="../monstres/forgotten_crossroads/mere_aspid.png" alt="Mère Aspid" class="monstre">
+                    <p class="description_ennemi">Une créature portant les oeufs de sa couvée dans son ventre. En cas de danger, elle peut les faire éclore pour donner naissance à ses petits, qui l'aideront à affronter les intrus. Des créatures sans aucun scrupule se servant de leurs petits comme arme contre l’ennemi ! Cela est véritablement très effrayant, mais j'admire leur ingéniosité. De bons chasseurs ne font pas toujours de bon parents.</p>
+                </li>
+                <li>
+                    <h2>Crawlid</h2>
+                    <img src="../monstres/forgotten_crossroads/crawlid.png" alt="Crawlid" class="monstre">
+                    <p class="description_ennemi">Un charognard timide. Arpente les cavernes à la recherche de nourriture. Triste et pitoyable. Mérite à peine d’être tué.</p>
+                </li>
+                <li>
+                    <h2>Ancien Baldur</h2>
+                    <img src="../monstres/forgotten_crossroads/ancien_baldur.png" alt="Ancien Baldur" class="monstre">
+                    <p class="description_ennemi">Une créature volumineuse, recouverte d'une armure épaisse. Se rétracte à l'intérieur de sa coquille lorsqu'elle est menacée. Au fur et à mesure qu'elles vieillissent, ces créatures deviennent trop lourdes et grumeleuses pour pouvoir rouler comme elles le souhaitent. Alors, elles se recroquevillent et s'isolent du monde. À quoi peuvent-elles penser à l'intérieur de leur coquille ? Peut-être à des temps meilleurs.</p>
+                </li>
+                <li>
+                    <h2>Glimback</h2>
+                    <img src="../monstres/forgotten_crossroads/glimback.png" alt="Glimback" class="monstre">
+                    <p class="description_ennemi">Une créature lente et robuste. Les cristaux qui poussent sur son dos fournissent une protection supplémentaire contre les ennemeis aériens. Elles sont larges et bien protégées, mais lentes et dociles. Les insectes d'Hallownest se servaient de ces créatures en les forçant à transporter leurs chariots et leurs machines.</p>
+                </li>
+                <li>
+                    <h2>Goam</h2>
+                    <img src="../monstres/forgotten_crossroads/goam.png" alt="Goam" class="monstre">
+                    <p class="description_ennemi">Une bête possédant une carapace épaisse. Elle jaillit à la surface pour attraper ses proies entre ses dents. Ces bêtes semblent immunisées à la plupart des dégâts. Vous pouvez donc vous amuser à aiguiser vos armes sur leur carapace épaisse. Cela ne semble pas les déranger.</p>
+                </li>
+                <li>
+                    <h2>Gruzzer</h2>
+                    <img src="../monstres/forgotten_crossroads/gruzzer.png" alt="Gruzzer" class="monstre">
+                    <p class="description_ennemi">Une créature idiote. Bourdonne aléatoirement et se heure contre tout ce qui l'entoure. Ce sont des créatures idiotes qui semblent à peine être conscientes de leur environnement. Cela en fait des proies faciles pour planter vos dents dedans. Mais pourquoi ce comportent-elle ainsi ? C'est comme si elles cherchaient un moyen de mourir.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Malmeneuse</h2>
+                    <img src="../monstres/forgotten_crossroads/carcasse_malmeneuse.png" alt="Carcasse Malmeneuse" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'un insecte, animé par une force étrange. Attaque férocement toutes les créatures sur son chemin qui ne sont pas infectées. Ces corps sans vie ambulants sont remplis d'une brume orange épaisse. Ça a un goût un peu sucré et maladif. C'était vraiment immonde. Je vous conseillerais de ne pas les manger après les avoir tués.</p>
+                </li>
+                <li>
+                    <h2>Carcasse de la défense</h2>
+                    <img src="../monstres/forgotten_crossroads/carcasse_de_la_défense.png" alt="Carcasse de la défense" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'un excellent gardien d'Hallownest, animé par une force étrange. Son instinct le pousse encore à garder son poste contre les intrus. Plus gros et plus forts que leurs frères, ces insectes doivent voler leurs armes sur les corps sans vie d'autres créatures. Ils ne quittent jamais leur poste et ne chassent jamais. Ils restent éternellement de garde, attaquant tout ce qui s'aventure trop près d'eux.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Cornue</h2>
+                    <img src="../monstres/forgotten_crossroads/carcasse_cornue.png" alt="Carcasse Cornue" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'un insecte, animé par une force étrange. Utilise sa longue corne pour attaquer toutes les créatures sur son chemin qui ne sont pas infectées. Même après leur mort, ces insectes sont tellement arrogants. Ils sont beaucoup trop fiers de leur longue corne ! J'aime bien la leur arracher.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Guerrière</h2>
+                    <img src="../monstres/forgotten_crossroads/carcasse_guerriere.png" alt="Carcasse Guerrière" class="monstre">
+                    <p class="description_ennemi">La carapace vide d’un insecte, animé par une force étrange. Manie un aiguillon et un bouclier. Ramollis par une vie de luxe sur plusieurs générations, ces insectes ne possèdent pas de griffes, ou d’armures, ou même de venin. Ceux qui veulent pouvoir se protéger, eux-mêmes, sont contraints de se fabriquer des armes à base de pierres, de minerais ou de coquilles.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Sauteuse</h2>
+                    <img src="../monstres/forgotten_crossroads/carcasse_sauteuse.png" alt="Carcasse Sauteuse" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'un insecte, animé par une force étrange. Il saute et attaque instinctivement toutes les créatures sur son chemin qui ne sont pas infectées. Les insectes de l'ancien Hallownest ne chassaient pas eux-mêmes leur nourriture. Ils préféraient qu'elle leur soit directement apportée. Cela explique pourquoi ils étaient si faibles. Cela explique aussi pourquoi leur royaume s'est effondré pour disparaître dans l'oubli.</p>
+                </li>
+                <li>
+                    <h2>Maggot</h2>
+                    <img src="../monstres/forgotten_crossroads/maggot.png" alt="Maggot" class="monstre">
+                    <p class="description_ennemi">Être le plus faible du royaume d'Hallownest. Créature méprisée et forcée de s'occuper des basses besognes. Des créatures sans défense, faites pricipalement de graisse sucrée. Elles font d'excellentes provisions pour les longs trajets et elles sont encore meilleures après les avoir rôtis sur une flamme nue. Ignorez-les si elles tentent de négocier pour que vous leur laissiez la vie sauve. Elles n'ont rien à offrir.</p>
+                </li>
+                <li>
+                    <h2>Fixeur</h2>
+                    <img src="../monstres/forgotten_crossroads/fixeur.png" alt="Fixeur" class="monstre">
+                    <p class="description_ennemi">Des créatures appartenant à une guilde mystérieuse. Elles sont obnubilées par l’entretien des panneaux en tous genres. Les insectes d’Hallownest avaient pour obsession de construire des choses. Quels esprits étranges ils avaient !</p>
+                </li>
+                <li>
+                    <h2>Tiktik</h2>
+                    <img src="../monstres/forgotten_crossroads/tiktik.png" alt="Tiktik" class="monstre">
+                    <p class="description_ennemi">Une créature se servant de ses petites griffes acérées pour grimper le long des murs et sur les toits. Passe son temps à arpenter les routes et les cavernes proches de la surface de ce royaume. Si vous êtes patient, il vous suffit d’attendre qu’elles viennent à vous pour les tuer.</p>
+                </li>
+                <li>
+                    <h2>Mouche Vengeresse</h2>
+                    <img src="../monstres/forgotten_crossroads/mouche_vengeresse.png" alt="Mouche Vengeresse" class="monstre">
+                    <p class="description_ennemi">Un prédateur volant. Poursuis ses proies sans relâche. Ces féroces petits chasseurs pourchasseront même les créatures qui font plusieurs fois leur taille. Admirable! Cependant, j’en ai dévoré des centaines sans avoir fait le moindre effort, car ce sont des créatures très faibles.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Vagabonde</h2>
+                    <img src="../monstres/forgotten_crossroads/carcasse_vagabonde.png" alt="Carcasse Vagabonde" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'un insecte, animé par une force étrange. Erre sur les routes où elle vivait autrefois. Ces insectes "civilisés" d'Hallownest étaient faibles de leur vivant et ils sont tout aussi faibles après leur mort. Réduisez-les à l'état de poussière !</p>
+                </li>
+                <li>
+                    <h2>Baldur</h2>
+                    <img src="../monstres/forgotten_crossroads/baldur.png" alt="Baldur" class="monstre">
+                    <p class="description_ennemi">Une créature agressive dès la naissance. Se met en boule et se propulse sur les intrus qui s’aventurent sur son territoire. Les chasseurs plus jeunent se réjouissent d’attraper ces créatures pour les faire rouler sur le sol et jouer avec. Si cela vous donne envie, je vous encourage à faire la même chose.</p>
+                </li>
+                <!-- Après infection -->
+                <li>
+                    <h2>Mouche Vengeresse Enragée</h2>
+                    <img src="../monstres/forgotten_crossroads/mouche_vengeresse_enragée.png" alt="Mouche Vengeresse Enragée" class="monstre">
+                    <p class="description_ennemi">Une Mouche Vengeresse dont le corps a été déformé par une infection persistante. Très agressive. Une infection qui se transmet de créature en créature et qui donne de la force et du courage. Cependant, l'infection semble aussi asservir toute volonté. Pourriez-vous faire un tel pacte ?</p>
+                </li>
+                <li>
+                    <h2>Carcasse Baveuse</h2>
+                    <img src="../monstres/forgotten_crossroads/carcasse_baveuse.png" alt="Carcasse Baveuse" class="monstre">
+                    <p class="description_ennemi">Le corps d'un insecte, complètement envahi par l'infection. Crache un liquide corrosif. Cette infection qui s'est abattue sur Hallownest, il y a tellement longtemps... on raconte que plus vous luttez, plus l'infection s'empare de vous.</p>
+                </li>
+                <li>
+                    <h2>Gruzzer Instable</h2>
+                    <img src="../monstres/forgotten_crossroads/gruzzer_instable.png" alt="Gruzzer Instable" class="monstre">
+                    <p class="description_ennemi">Un Gruzzer dont le corps est enflé par l'infection. Son corps est prêt à éclater. Un horrible fluide visqueux et un gaz nocif commencent à couler plus haut. La source de cette pestilence existe-t-elle ? Si c'est le cas, je ne l'ai jamais vue.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Violente</h2>
+                    <img src="../monstres/forgotten_crossroads/carcasse_violente.png" alt="Carcasse Violente" class="monstre">
+                    <p class="description_ennemi">Une carapace vide, enragée par une infection massive. Charge sur les ennemis sans aucun instinct de préservation. Les insectes d'Hallownest ont été complètement déformés par cette infection ancienne. D'abord, ils tombent dans un sommeil profond, puis ils se réveillent avec un esprit qui ne leur appartient plus et avec un corps qui a déjà commencé à se déformer.</p>
+                </li>
+                <li>
+                    <h2>Blob Parasite</h2>
+                    <img src="../monstres/forgotten_crossroads/blob_parasite.png" alt="Blob Parasite" class="monstre">
+                    <p class="description_ennemi">Organisme unicellulaire, complètement infecté. Erre sans but. De l’air particulièrement étrange provenant d’en haut s’infiltre dans Hallownest depuis des années. Une partie de cet air est devenue liquide, et une partie de ce liquide est devenue chair, et cette chair a pris vie. Je ne sais pas trop quoi penser de tout cela.</p>
+                </li>
+            </ul>
+        </section>
+
+    <!-- Boss -->
+    <section class="boss" id="boss">
+        <h2 class="titre_section">Boss de la Zone</h2>
+    
+        <div class="boss-selector">
+            <!-- Boutons pour sélectionner les bosses -->
+            <input type="radio" id="MawlekMaussade" name="boss" checked>
+            <label for="MawlekMaussade" class="btn">Mawlek Maussade</label>
+
+            <input type="radio" id="FauxChevalier" name="boss" checked>
+            <label for="FauxChevalier" class="btn">Faux Chevalier</label>
+
+            <input type="radio" id="MereGruz" name="boss" checked>
+            <label for="MereGruz" class="btn">Mère Gruz</label>
+
+            <input type="radio" id="ChampionRate" name="boss" checked>
+            <label for="ChampionRate" class="btn">Champion Raté</label>
+
+            <input type="radio" id="HollowKnight" name="boss" checked>
+            <label for="HollowKnight" class="btn">Hollow Knight</label>
+
+            <input type="radio" id="Radiance" name="boss" checked>
+            <label for="Radiance" class="btn">Radiance</label>
+    
+            <div class="boss-info">
+                <!-- Boss 1 -->
+                <div class="boss-content" id="MawlekMaussade">
+                    <h2>Mawlek Maussade</h2>
+                    <img src="../monstres/forgotten_crossroads/mawlek_maussade.png" alt="Mawlek Maussade">
+                    <p>Un seul Mawlek Maussade peut être trouvé hors route dans les Routes Oubliées, loin de ses frères vivants dans Bassin Ancestral. Il se trouve au milieu de restes fossilisés de ce genre et les appelle à se reproduire. Cette bête sauvage a été rendue folle à la fois par sa solitude et par L'Infection qui a commencé à couvrir son corps d'ampoules. Il devient agressif s'il n'est pas capable de se mêler aux siens.
+                    </p>
+                </div>
+
+                <!-- Boss 2 -->
+                <div class="boss-content" id="FauxChevalier">
+                    <h2>Faux Chevalier</h2>
+                    <img src="../monstres/forgotten_crossroads/faux_chevalier.png" alt="Faux Chevalier">
+                    <p>Le Faux Chevalier est un Maggot portant l'armure de Hegemol, l'un des Cinq Grand Chevaliers d'Hallownest. Cette frêle créature cherchait à protéger les autres membres son espèce vivant dans l'entrepôt abandonné au coeur des Routes Oubliées. Il découvrit un jour Hegemol apparemment endormi dans son armure et la lui vola dans l'espoir d'acquérir plus de force. Bien que son acte à l'origine ne fut pas influencé par l'Infection, il succomba plus tard sous son contrôle.
+                    </p>
+                </div>
+
+                <!-- Boss 3 -->
+                <div class="boss-content" id="MereGruz">
+                    <h2>Mère Gruz</h2>
+                    <img src="../monstres/forgotten_crossroads/mère_gruz.png" alt="Mère Gruz">
+                    <p>Mère Gruz peut être trouvée bloquant le chemin direct vers un village deserté au bas des Routes Oubliées. Elle dort, épuisée du fait qu'elle porte ses enfants, et se réveille lorsqu'elle est frappée par le Chevalier. Lorsqu'elle est vaincue, son estomac s'ouvre pour révéler une nuée de Gruzzers.
+                    </p>
+                </div>
+                
+                <!-- Boss 4 -->
+                <div class="boss-content" id="ChampionRate">
+                    <h2 class="boss_reve">Champion Raté</h2>
+                    <img src="../monstres/forgotten_crossroads/champion_rate.png" alt="Champion Raté" class="boss_img_reve">
+                    <p class="boss_reve">Le Champion Raté est la variante des Rêves du Faux Chevalier, plus rapide et plus résistante que son homologue physique.
+                    </p>
+                </div>
+
+                <!-- Boss 5 -->
+                <div class="boss-content" id="HollowKnight">
+                    <h2>Hollow Knight</h2>
+                    <img src="../monstres/forgotten_crossroads/hollow_knight.png" alt="Hollow Knight">
+                    <p>Le Hollow Knight est le Vaisseau élu par le Roi Pâle pour sceller Radiance et sauver Hallownest de l'Infection. Comme ses frères et sœurs, il est l'enfant du Roi et de la Reine d'Hallownest, né dans les Abysses afin de fusionner avec le pouvoir du Vide. Cette situation à la naissance était aussi supposée le laisser sans esprit, sans volonté et sans voix, pour empêcher l'influence de Radiance sur lui. Cependant, sa pureté a été mal jugée, ternie par une pensée inculquée, un lien avec le Roi Pâle qui est celui qui l'a élevé. <br><br>
+                    Sans tenir compte de son impureté, le Hollow Knight fut entraîné et élevé pour devenir éventuellement un Vaisseau mature. Radiance fut scellée en lui et il fut enchaîné à l'intérieur du Temple de l’Oeuf Noir, dans lequel il devait contenir l'Infection pour l'éternité. Cependant, à cause des impuretés susmentionnées, Radiance put toujours exercer son influence. Les conséquences furent la réapparition de l'Infection et, par la suite, la chute du royaume.<br><br>
+                    Avec le temps, le Hollow Knight disparu de la mémoire du royaume déchu. Seul le mémorial situé au centre de la Cité des Larmes témoigne de son sacrifice pour le salut d'Hallownest.
+                    Après un certain temps, le pouvoir de Radiance finit par éclater du corps du Hollow Knight, fissurant son masque. Cet événement fut le catalyseur qui amena le Chevalier à retourner à Hallownest. Ce dernier partit donc en quête de libérer le Hollow Knight après avoir tué les trois Rêveurs scellant l'entrée du Temple de l'Oeuf Noir.
+                    </p>
+                </div>
+
+                <!-- Boss 6 -->
+                <div class="boss-content" id="Radiance">
+                    <h2 class="boss_reve">Radiance</h2>
+                    <img src="../monstres/forgotten_crossroads/radiance.png" alt="Radianceyeux" class="boss_img_reve">
+                    <p class="boss_reve">Radiance est un Être supérieur de lumière, similaire aux Essences et opposé au Vide, son ancien ennemi. La Tribu des Papillons de Nuit est née de sa lumière et la vénère en retour. <br><br>
+                    Après que Le Roi Pâle soit arrivé en Hallownest, il offra la conscience et l'individualisme à ses habitants, la tribu des Papillons de Nuit tournèrent le dos à la Radiance pour vénérer le roi. Ce faisant, Radiance fut presque oubliée. Pourtant des traces de sa mémoire demeurèrent, comme une statue sur la Couronne d'Hallownest. De plus, sa mémoire à commencé à se répandre à travers le nouveau royaume débutant son âge d'or. Bientôt, tout Hallownest commença à rêver de son ancienne déesse, leur apparaissant comme une lumière flamboyante. Ces rêves peuvent briser l'esprit des insectes et asservir leur volonté à la sienne . Mais le roi et ses sujets résistèrent à son souvenir. C'est ainsi que commença la manifestation de l'Infection. À travers l'Infection, Radiance offre l'unité aux insectes au prix de leur esprits, ils deviennent alors incapable de penser. <br><br>
+                    Le Roi Pâle essaya de stopper l'infection en scellant Radiance dans un Vaisseau. Ces créatures, imprégnées du Vide afin d'être sans esprit et sans volonté, étaient censées pouvoir résister à l'influence de la Radiance. L'Hollow Knight a été choisi, élevé et a grandi dans cet objectif. Radiance fut donc scellée en lui, et le Vaisseau enchaîné à l'intérieur du Temple de l'Oeuf noir. Cependant, le Roi pâle a échoué dans sa tentative de création d'un Vaisseau à l'esprit pur. Par son erreur, Radiance demeure capable de pénétrer les rêves des insectes. Elle a fini par anéantir le haut-royaume dont le roi a disparu, mais a laissé le reste d'Hallownest intact. <br><br>
+                    Le temps a passé, Hallownest est devenu un mythe alors que Radiance restait scellée. Son influence a finalement commencé à s'échapper du Hollow Knight. Elle a ravivé toute la puissance de l'Infection, menaçant à nouveau le royaume et incitant Le Chevalier à revenir à Hallownest.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Évènements -->
+    <section id="evenement">
+        <h2 class="titre_section">Évènements</h2>
+        <ul class="liste">
+            <li>Obtention du sort : Esprit Vengeur</li>
+            <li>Obtention d'un morceau d'âme</li>
+            <li>Obtention de deux morceaux de masque</li>
+            <br>
+            <li>Accès au temple de l’Oeuf Noir</li>
+            <br>
+            <li>Station Coléoptère : Station des Routes Oubliées</li>
+            <br>
+            <li>Rencontre du marchand/Grand Maître d’Aiguillon : Sly</li>
+            <li>Rencontre de la mardhande de charmes Salubra</li>
+            <li>Rencontre du Quirrel</li>
+            <li>Rencontre d'Hornet</li>
+            <li>Rencontre de Père Larve</li>
+            <li>Rencontre de Myla</li>
+        </ul>
+    </section>
+
+        <!-- Vidéos -->
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/smPgLzMPo9g?si=3NYXcGgkJ1TNX4-y" class="lien_titre">Combat contre Mawlek Maussade</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/smPgLzMPo9g?si=3NYXcGgkJ1TNX4-y" title="Vidéo du combat contre Mawlek Maussade"></iframe>
+        </section>
+
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/uN8O57b12WI?si=Oydbn-VmGQaav8Qp" class="lien_titre">Combat contre le Faux Chevalier</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/uN8O57b12WI?si=Oydbn-VmGQaav8Qp" title="Vidéo du combat contre le Faux Chevalier"></iframe>
+        </section>
+
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/WqwuVjYxHnQ?si=SgjJn2VYcsCv_hQa" class="lien_titre">Combat contre Mère Gruz</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/WqwuVjYxHnQ?si=SgjJn2VYcsCv_hQa" title="Vidéo du combat contre Mère Gruz"></iframe>
+        </section>
+
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/ubJWpcesVAI?si=ttM49hmPl_23iaWj" class="lien_titre">Combat contre le Champion Raté</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/ubJWpcesVAI?si=ttM49hmPl_23iaWj" title="Vidéo du combat contre le Champion Raté"></iframe>
+        </section>
+
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/Htz7ZSyiovU?si=0BVFl7-N9xLHpbFL" class="lien_titre">Combat contre le Hollow Knight</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/Htz7ZSyiovU?si=0BVFl7-N9xLHpbFL" title="Vidéo du combat contre le Hollow Knight"></iframe>
+        </section>
+
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/W-VLdOhkez4?si=jzaomPVbMjiPGwGN" class="lien_titre">Combat contre Radiance</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/W-VLdOhkez4?si=jzaomPVbMjiPGwGN" title="Vidéo du combat contre Radiance"></iframe>
+        </section>
+
+        <!-- Citation -->
+        <footer>
+            <p class="quote">"Êtes-vous toujours en train de vous frayer un chemin à travers ces routes magnifiques ? Imaginez seulement, comment elles devaient être lorsque le royaume était à son apogée : bondées de passants et grouillantes de vie !"<br><br>-Cornifer</p>
+        </footer>
+    </div>
+    <script src="../js/script_lightmode.js" defer></script>
+</body>
+</html>

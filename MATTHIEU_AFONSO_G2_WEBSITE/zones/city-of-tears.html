@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zone - Cité des Larmes</title>
+    <link href="https://fonts.cdnfonts.com/css/trajan-pro" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style_site.css">
+    <link rel="stylesheet" href="../css/css_lightmode.css">
+</head>
+
+<body>
+    <ul class="ul">
+        <li class="li"><a class="active" href="../menu_principal.html">Retour</a></li>
+        <li class="li"><a href="#top">Accueil</a></li>
+        <li class="li"><a href="#map">Carte</a></li>
+        <li class="li"><a href="#lore">Lore</a></li>
+        <li class="li"><a href="#connexion">Connexions</a></li>
+        <li class="li"><a href="#ennemis">Ennemis</a></li>
+        <li class="li"><a href="#boss">Boss</a></li>
+        <li class="li"><a href="#evenement">Évènements</a></li>
+        <li class="li"><a href="#video">Vidéos</a></li>
+        <li class="li"><button id="toggle-lightmode" class="lightmode-btn-header">Activer le mode clair</button></li>
+    </ul>
+
+    <div class="container" id="top">
+        
+        <header class="banner-header">
+            <img src="../images/cite_image.png" alt="Bannière Cité des Larmes" class="banner-image">
+            <img src="../images/cite.png" alt="Cité des Larmes" class="main-image" width="500">
+            <h1 class="titre_page">Cité des Larmes</h1>
+            <h2 class="sous_titre">Capitale d'Hallownest, située au centre du royaume. Elle est couverte d'une pluie perpétuelle qui provient du plafond qui la surplombe. Son nom original a été perdu dans l'histoire.</h2>
+        </header>
+
+        <!-- Map -->
+        <section id="map">
+            <h2 class="titre_section">Carte</h2>
+            <img src="../images/cite_carte.png" alt="Carte de la Cité des Larmes">
+        </section>
+        
+        <!-- Lore de la zone -->
+        <section class="lore" id="lore">
+            <h2 class="titre_section">Lore</h2>
+            <p>Dans le passé, la Cité Des Larmes était connue comme "la ville située au coeur de ce royaume", "<span class="info">le coeur</span> d'Hallownest", et "la capitale d'Hallownest". L'un des moyens d'y accéder était de prendre la <span class="info">voie du pèlerin</span>, une route partant des Routes Oubliées et traverse Vertchemin, Brumes Canyon et la Caverne Nocive se terminant à la grande porte dans la partie ouest de la Cité. Les voyageurs ont été promis que s'ils atteignaient la capitale, <span class="info">tous leurs souhaits seraient accordés</span> et qu'ils pourraient partager la gloire de la Cité. Les marchandises de tout l'Hallownest étaient transportées vers la capitale, mais peu étaient renvoyées. <br><br>
+            Les <span class="info">membres de la haute société</span> d'Hallownest étaient ceux qui exerçaient le <span class="info">plus d'influence</span>. <span class="info">Lurien le Veilleur</span> semble avoir été l'un des personnages les plus influents de la Cité, qu'il <span class="info">surveillait avec son télescope</span> dans l'<span class="info">Observatoire</span>. <br><br>
+            Lorsque l'<span class="info">Infection</span> s'est répandue à Hallownest, les portes de la capitale ont été <span class="info">scellées pour empêcher quiconque d'entrer ou de sortir</span> de la Cité afin d'empêcher l'Infection d'atteindre la Cité. Cependant, cela s'est avéré <span class="info">inutile</span>, car toute la Cité a été <span class="info">infectée</span>. L'eau s'écoule maintenant du Lac Bleu à travers le plafond de la caverne, causant de la pluie et donnant à la capitale son nom actuel.
+            </p>
+        </section>
+
+        <!-- Connexion -->
+        <section class="connexion" id="connexion">
+            <h2 class="titre_section">Connexions</h2>
+            <p>La Cité des Larmes est relié à ces zones :</p>
+            <ul>
+                <li class="lien"><a href="forgotten-crossroads.html" class="lien">Routes Oubliées</a> </li>
+                <li class="lien"><a href="fungal-wastes.html" class="lien">Caverne Nocive</a> </li>
+                <li class="lien"><a href="kingdom-s-edge.html" class="lien">Frontières du Royaume</a> </li>
+                <li class="lien"><a href="resting-grounds.html" class="lien">Repos Éternel</a> </li>
+                <li class="lien"><a href="royal-waterways.html" class="lien">Voies d’Eau Royales</a> </li>
+            </ul>
+        </section>
+
+        <!-- Ennemis -->
+        <section class="ennemis" id="ennemis">
+            <h2 class="titre_section">Ennemis</h2>
+            <ul>
+                <li>
+                    <h2>Belfly</h2>
+                    <img src="../monstres/cite_des_larmes/belfly.png" alt="Belfly" class="monstre">
+                    <p class="description_ennemi">Une créature possédant de fines ailes qui dissimulent un ventre très instable. Elles sonneront leur propre vie pour protéger leur territoire. Une créature coléreuse sans égard pour sa propre vie. Une créature qui ne connait pas la peur... peut-on vraiment l'appeler "proie" ?</p>
+                </li>
+                <li>
+                    <h2>Carcasse Peureuse</h2>
+                    <img src="../monstres/cite_des_larmes/carcasse_peureuse.png" alt="Carcasse Peureuse" class="monstre">
+                    <p class="description_ennemi">Un insecte appartenant autrefois à l'aristocratie d'Hallownest. Rendu aggressif par la force étrange qui l'habite. Son instinct l'oblige encre parfois à fuir quand il se trouve dans une situation dangereuse. La nature peureuse et lâche des insectes d'Hallownest persiste même après leur mort ! Cela semble presque honteux de les chasser et de les abattre.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Gloutonne</h2>
+                    <img src="../monstres/cite_des_larmes/carcasse_gloutonne.png" alt="Carcasse Gloutonne" class="monstre">
+                    <p class="description_ennemi">Un insecte appartenant autrefois à l'aristocratie d'Hallownest. Utilise son corps corpulent comme arme. En s'enrichissant, ces insectes se sont mis à chasser moins et à consommer plus. Cela leur a donné une forme grotesque. Ils ressemblent maintenant à des fruits trop mûrs.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Magnifique</h2>
+                    <img src="../monstres/cite_des_larmes/carcasse_magnifique.png" alt="Carcasse Magnifique" class="monstre">
+                    <p class="description_ennemi">Carcasse corpulente couverte d'un métal brillant. Son instinct la pousse à accumuler toujours plus de Geo. Il existe beaucoup de beauté dans les choses ordinaires telles que : les reflets de la lumière dans l'eau, le goût de la viande fraîchement tuée, les pleurs d'un nouveau-né pour sa mère... Cependant, je ne comprendrais jamais l'attirance que peuvent avoir certains insectes pour les métaux et les pierres.</p>
+                </li>
+                <li>
+                    <h2>Sentinelle Vide Armée</h2>
+                    <img src="../monstres/cite_des_larmes/sentinelle_vide_armee.png" alt="Sentinelle Vide Armée" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'une Grande sentinelle, qui appartenait à l'élite des gardes de la ville. Manie un estraguillon et un bouclier. Ses attaques puissantes peuvent causer de lourds dégâts. C'est une chose extrênement rare dans Hallownest, de croiser le chemin d'un créature, pouvant constituer une menace. Observez-les attentivemen, car elles peuvent attaquer rapidement avec des attaques dévastatrices.</p>
+                </li>
+                <li>
+                    <h2>Sentinelle Armée</h2>
+                    <img src="../monstres/cite_des_larmes/sentinelle_armee.png" alt="Sentinelle Armée" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'une grande sentinelle d'Hallownest, animée par une force étrange. Une des rares créatures dans tout Hallownest assez fortes pour manier un estraguillon. Les insectes d'Hallownest sont tellement pitoyables. Ils ont eu beaucoup de chance d'avoir été infectés par des champignons toxiques, car cela augmente leurs chances de survie ! Ce sont vraiment des créatures complètement absurdes.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Malmeneuse</h2>
+                    <img src="../monstres/cite_des_larmes/carcasse_malmeneuse.png" alt="Carcasse Malmeneuse" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'un insecte, animé par une force étrange. Attaque férocement toutes les créatures sur son chemin qui ne sont pas infectées. Ces corps sans vie ambulants sont remplis d'une brume orange épaisse. Ça a un goût un peu sucré et maladif. C'était vraiment immonde. Je vous conseillerais de ne pas les manger après les avoir tués.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Cornue</h2>
+                    <img src="../monstres/cite_des_larmes/carcasse_cornue.png" alt="Carcasse Cornue" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'un insecte, animé par une force étrange. Utilise sa longue corne pour attaquer toutes les créatures sur son chemin qui ne sont pas infectées. Même après leur mort, ces insectes sont tellement arrogants. Ils sont beaucoup trop fiers de leur longue corne ! J'aime bien la leur arracher.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Sauteuse</h2>
+                    <img src="../monstres/cite_des_larmes/carcasse_sauteuse.png" alt="Carcasse Sauteuse" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'un insecte, animé par une force étrange. Il saute et attaque instinctivement toutes les créatures sur son chemin qui ne sont pas infectées. Les insectes de l'ancien Hallownest ne chassaient pas eux-mêmes leur nourriture. Ils préféraient qu'elle leur soit directement apportée. Cela explique pourquoi ils étaient si faibles. Cela explique aussi pourquoi leur royaume s'est effondré pour disparaître dans l'oubli.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Prétentieuse</h2>
+                    <img src="../monstres/cite_des_larmes/carcasse_pretentieuse.png" alt="Carcasse Prétentieuse" class="monstre">
+                    <p class="description_ennemi">Un insecte appartenant autrefois à l'aristocratie d'Hallownest. Capacités offensives limitées. Apparamment, les insectes les plus faibles et les plus gourmands d'Hallownest étaient également ceux qui possèdaient le plus d'influence. Ce royaume était véritablement destiné à s'effondrer.</p>
+                </li>
+                <li>
+                    <h2>Sentinelle Vide</h2>
+                    <img src="../monstres/cite_des_larmes/sentinelle_vide.png" alt="Sentinelle Vide" class="monstre">
+                    <p class="description_ennemi">La carapace vide d’une sentinelle d’Hallownest, animée par une force étrange. Possède encore quelques bribes de souvenirs de son ancienne vie. Plus habiles au combat que la plupart des insectes d’Hallownest, ces créatures savent comment s’adapter à toutes sortes de situations. Cependant, elles possèdent une carapace légère. Maintenez-les sous pression !</p>
+                </li>
+                <li>
+                    <h2>Sentinelle à l’aiguillon long</h2>
+                    <img src="../monstres/cite_des_larmes/sentinelle_à_l_aiguillon_long.png" alt="Sentinelle à l’aiguillon long" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'une grande sentinelle d'Hallownest, maniant un aiguillon long. Charge l'ennemi avec son arme redoutable ou la lance à distance. La plupart du temps, cet ennemi sournois gardera ses distances et tentera de vous abattre avec son arme de jet. Attendez que cette créature vous charge, puis sautez au-dessus d'elle et frappez là en effectuant une attaque vers le bas.</p>
+                </li>
+                <li>
+                    <h2>Mouche Vengeresse</h2>
+                    <img src="../monstres/cite_des_larmes/mouche_vengeresse.png" alt="Mouche Vengeresse" class="monstre">
+                    <p class="description_ennemi">Un prédateur volant. Poursuis ses proies sans relâche. Ces féroces petits chasseurs pourchasseront même les créatures qui font plusieurs fois leur taille. Admirable! Cependant, j’en ai dévoré des centaines sans avoir fait le moindre effort, car ce sont des créatures très faibles.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Vagabonde</h2>
+                    <img src="../monstres/cite_des_larmes/carcasse_vagabonde.png" alt="Carcasse Vagabonde" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'un insecte, animé par une force étrange. Erre sur les routes où elle vivait autrefois. Ces insectes "civilisés" d'Hallownest étaient faibles de leur vivant et ils sont tout aussi faibles après leur mort. Réduisez-les à l'état de poussière !</p>
+                </li>
+                <li>
+                    <h2>Sentinelle Ailée</h2>
+                    <img src="../monstres/cite_des_larmes/sentinelle_ailee.png" alt="Sentinelle Ailée" class="monstre">
+                    <p class="description_ennemi">Une sentinelle ailée d’Hallownest. Patrouille dans les hauteurs d’une caverne immense à partir de laquelle la ville a été construite. Virevoltent dans les airs en restant hors de portée, jusqu’à ce qu’elle repère un point faible dans la défense de l’ennemi. C’est à ce moment qu’elles fondent sur l’ennemi pour porter un coup décisif. Si vous êtes assez confiant dans vos aptitudes de combat, attendez qu’elles viennent à vous pour contre-attaquer.</p>
+                </li>
+                <li>
+                    <h2>Folly</h2>
+                    <img src="../monstres/cite_des_larmes/folly.png" alt="Folly" class="monstre">
+                    <p class="description_ennemi">Une créature qui était autrefois très intelligente. Déformée par une mauvaise utilisation de l'Ame. J'ai entendu dire que ces fous recherchaient le secret de l'immortalité. Vivre éternellement... Je n'ai jamais rien entendu de si choquant et révoltant.</p>
+                </li>
+                <li>
+                    <h2>Erreur</h2>
+                    <img src="../monstres/cite_des_larmes/erreur.png" alt="Erreur" class="monstre">
+                    <p class="description_ennemi">Une créature qui était autrefois très intelligente. Déformée par une mauvaise utilisation de l'Ame. Ces créatures ont commis l'erreur de jouer avec l'âme des autres créatures. Maintenant déformées, elles rampent dans l'obscurité de leur sanctuaire comme des limaces, en espérant que leurs vieux frères leur créeront de nouveaux corps.</p>
+                </li>
+                <li>
+                    <h2>Tourmenteur de l’Âme</h2>
+                    <img src="../monstres/cite_des_larmes/tourmenteur_de_l_ame.png" alt="Tourmenteur de l’Âme" class="monstre">
+                    <p class="description_ennemi">Un insecte très intelligent ! Utilise les connaissances arcaniques qu'elle possède pour transformer l'âme en des sorts vicieux. J'ai déjà entendu d'autre créatures parler de "l'âme", mais j'ignore de quoi il s'agit. Par exemple, je sais que la viande fraichement tuée à bien meilleur goût. Est-ce que c'est parce que "l'âme" s'y accroche encore ?</p>
+                </li>
+                <li>
+                    <h2>Aspid Chasseresse</h2>
+                    <img src="../monstres/cite_des_larmes/aspid_chasseresse.png" alt="Aspid Chasseresse" class="monstre">
+                    <p class="description_ennemi">Une créature chassant souvent en groupe. Terrasse ses proies en crachant un liquide corrosif. Des prédateurs astucieux qui essaieront de vous tuer à distance. Chargez dans le tas et découpez-les. Vous verrez que ce ne sont pas des créatures si rusées, une fois qu'elles sont mortes.</p>
+                </li>
+                <li>
+                    <h2>Baldur</h2>
+                    <img src="../monstres/cite_des_larmes/baldur.png" alt="Baldur" class="monstre">
+                    <p class="description_ennemi">Une créature agressive dès la naissance. Se met en boule et se propulse sur les intrus qui s’aventurent sur son territoire. Les chasseurs plus jeunent se réjouissent d’attraper ces créatures pour les faire rouler sur le sol et jouer avec. Si cela vous donne envie, je vous encourage à faire la même chose.</p>
+                </li>
+                <li>
+                    <h2 class="grimm">Grimm Novice</h2>
+                    <img src="../monstres/cite_des_larmes/grimm_novice.png" alt="Grimm Novice" class="grimm_img" class="monstre">
+                    <p class="grimm" class="description_ennemi">Jeune et espiègle membre de la Troupe de Grimm. Dans le cadre du rituel, il rassemble la flamme écarlate dans sa torche. Il abandonnera la flamme une fois vaincu. Les ombres rêvent d'un feu sans fin. Les flammes dévorent et les braises s'affrontent. On allumera la lanterne du cauchemar. Appeler et servir dans la Troupe redoutable de Grimm.</p>
+                </li>
+            </ul>
+        </section>
+
+    <!-- Boss -->
+    <section class="boss" id="boss">
+        <h2 class="titre_section">Boss de la Zone</h2>
+    
+        <div class="boss-selector">
+            <!-- Boutons pour sélectionner les bosses -->
+            <input type="radio" id="GuerrierDeLAme" name="boss" checked>
+            <label for="GuerrierDeLAme" class="btn">Guerrier de l'Âme</label>
+
+            <input type="radio" id="MaitreDeLAme" name="boss" checked>
+            <label for="MaitreDeLAme" class="btn">Maître de L’Âme</label>
+
+            <input type="radio" id="TyranDeLAme" name="boss" checked>
+            <label for="TyranDeLAme" class="btn">Tyran de L’Âme</label>
+
+            <input type="radio" id="Veilleur" name="boss" checked>
+            <label for="Veilleur" class="btn">Veilleur</label>
+
+            <input type="radio" id="LeCollectionneur" name="boss" checked>
+            <label for="LeCollectionneur" class="btn">Le Collectionneur</label>
+    
+            <div class="boss-info">
+                <!-- Boss 1 -->
+                <div class="boss-content" id="GuerrierDeLAme">
+                    <h2>Guerrier de l'Âme</h2>
+                    <img src="../monstres/cite_des_larmes/guerrier_de_l_ame.png" alt="Guerrier de l'Âme">
+                    <p>Les Guerriers de l'Âme font partie des Érudits du Sanctuaire de l'Âme qui améliorent leurs techniques de combat grâce à de l'Âme recueillie. Cependant, contrairement aux autres Érudits du Sanctuaire, ils ne semblent pas se souvenir des origines de leurs pouvoirs.
+                    </p>
+                </div>
+
+                <!-- Boss 2 -->
+                <div class="boss-content" id="MaitreDeLAme">
+                    <h2>Maître de L’Âme</h2>
+                    <img src="../monstres/cite_des_larmes/maitre_de_l_ame.png" alt="Maître de L’Âme">
+                    <p>Le Maître de l'Âme était le Chef de file du Sanctuaire de l'Âme et de ses érudits, qui recherchaient le moyen d'atteindre l'éveil véritable. Quand L’Infection a commencé, il en est venu à la conclusion que l'Âme, l'énergie animant à la fois les insectes et les bêtes, était le remède à cette peste qui rongeait leurs esprits. Il refusa d'écouter Le Roi Pâle qui s'opposa à ses expériences, et ne remarqua pas que ses projets étaient guidés par son propre esprit déjà influencé par l'Infection.
+                    Le Maître de l'Âme assembla des âmes et les consuma, gagnant peu à peu de nouveaux pouvoirs. Des Totems d'Âme parsemés dans le sanctuaire drainèrent l'énergie vitale de nombreux insectes malchanceux. Ainsi, contrairement au reste des habitants du Royaume, ses érudits et lui furent capables de survivre à l'Infection. Cependant, obsédé par sa quête d'immortalité, il perdit la raison en essayant de se rapprocher de la lumière qui guidait son esprit.
+                    </p>
+                </div>
+
+                <!-- Boss 3 -->
+                <div class="boss-content" id="TyranDeLAme">
+                    <h2 class="boss_reve">Tyran de L’Âme</h2>
+                    <img src="../monstres/cite_des_larmes/tyran_de_l_ame.png" alt="Tyran de L’Âme" class="boss_img_reve">
+                    <p class="boss_reve">Le Tyran de l'Âme est la version des rêves du Maître de l'Âme accessible dès la fin du premier combat ou en revenant dans la salle, et en frappant le corps du Maître d'Âme avec l'Aiguillon des Rêves.
+                    </p>
+                </div>
+
+                <!-- Boss 4 -->
+                <div class="boss-content" id="Veilleur">
+                    <h2>Veilleur</h2>
+                    <img src="../monstres/cite_des_larmes/veilleur.png" alt="Veilleur">
+                    <p>Les chevaliers observateurs avaient l'habitude de défendre l'entrée de l'Observatoire et le corps dormant de Lurien. Ils sont finalement morts alors qu'ils montaient la garde, leurs coquilles défaussées tapissaient la pièce.
+                    </p>
+                </div>
+
+                <!-- Boss 5 -->
+                <div class="boss-content" id="LeCollectionneur">
+                    <h2>Le Collectionneur</h2>
+                    <img src="../monstres/cite_des_larmes/le_collectionneur.png" alt="Le Collectionneur">
+                    <p>Le Collectionneur est une créature du Vide. Il vit caché dans la Tour de l'Amour, qui est fermée à clé, en compagnie d'une vaste collection de bestioles provenant de tout Hallownest et conservées, mortes ou vivantes, dans des bocaux en verre.
+                    Bien qu'il affiche toujours une attitude joyeuse, le Collectionneur ne se préoccupe que de la préservation des autres créatures. Il a piégé les Larves de la colonie des Routes Oubliées et a noté sur une carte leur emplacement dans tout Hallownest. Malgré l'attention qu'il porte aux Larves, il n'en a que trois dans sa Tour. Il a également un lien avec l'ancien propriétaire de la Clé de la Tour, une punaise aristocrate d'Hallownest que l'on peut retrouver morte dans les Jardins de la Reine.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Évènements -->
+    <section id="evenement">
+        <h2 class="titre_section">Évènements</h2>
+        <ul class="liste">
+            <li>Obtention du sort : Élan Ravageur</li>
+            <li>Obtention du sort : Âme d’ombre</li>
+            <li>Obtention de la carte du Collectionneur</li>
+            <li>Obtention d'une clé simple</li>
+            <li>Obtention d'un morceau d'âme</li>
+            <li>Obtention d'un morceau de masque</li>
+            <br>
+            <li>Accès à la Tour de l'Amour</li>
+            <li>Accès à la Maison du Plaisir</li>
+            <li>Accès à l'Observatoire</li>
+            <li>Accès au Sanctuaire de l'Ame</li>
+            <br>
+            <li>Station Coléoptère : Station du Roi</li>
+            <li>Station Coléoptère : Entrepôts de la Cité</li>
+            <br>
+            <li>Rencontre du Chercheur de Reliques Lemm</li>
+            <li>Rencontre du Fabricant d’Aiguillons</li>
+            <li>Rencontre de Quirrel</li>
+            <li>Rencontre de Hornet</li>
+            <li>Rencontre de Millibelle la Voleuse</li>
+            <li>Rencontre de Zote le Redoutable #3</li>
+        </ul>
+    </section>
+
+        <!-- Vidéos -->
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/vbN6I9KnAko?si=TVGtmR3RsO0UUtRk" class="lien_titre">Combat contre le Guerrier de l'Âme</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/vbN6I9KnAko?si=TVGtmR3RsO0UUtRk" title="Vidéo du combat contre le Guerrier de l'Âme"></iframe>
+        </section>
+
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/dkUNbGTwaic?si=5jqNves-TOZvpoDU" class="lien_titre">Combat contre le Maître de L’Âme</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/dkUNbGTwaic?si=5jqNves-TOZvpoDU" title="Vidéo du combat contre le Maître de L’Âme"></iframe>
+        </section>
+
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/xJ63XrNYDOg?si=h1W0JtoBUOXOMRPl" class="lien_titre">Combat contre le Tyran de L’Âme</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/xJ63XrNYDOg?si=h1W0JtoBUOXOMRPl" title="Vidéo du combat contre le Tyran de L’Âme"></iframe>
+        </section>
+
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/SnBU0UOqq88?si=_bXy9M0luLAGwChM" class="lien_titre">Combat contre les Veilleur</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/SnBU0UOqq88?si=_bXy9M0luLAGwChM" title="Vidéo du combat contre les Veilleur"></iframe>
+        </section>
+
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/uHK-Rtw7ccY?si=m3atuTfLRJO_JSya" class="lien_titre">Combat contre Le Collectionneur</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/uHK-Rtw7ccY?si=m3atuTfLRJO_JSya" title="Vidéo du combat contre Le Collectionneur"></iframe>
+        </section>
+
+        <!-- Citation -->
+        <footer>
+            <p class="quote">"La ville semble avoir été construite au sein d’une seule et énorme caverne. La pluie tombe à travers les fissures de la roche qui se trouve au-dessus. Il doit y avoir beaucoup d’eau quelque part là-haut."<br><br>-Quirrel</p>
+        </footer>
+    </div>
+    <script src="../js/script_lightmode.js" defer></script>
+</body>
+</html>

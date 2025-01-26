@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zone - Colisée des Fous</title>
+    <link href="https://fonts.cdnfonts.com/css/trajan-pro" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style_site.css">
+    <link rel="stylesheet" href="../css/css_lightmode.css">
+</head>
+
+<body>
+    <ul class="ul">
+        <li class="li"><a class="active" href="../menu_principal.html">Retour</a></li>
+        <li class="li"><a href="#top">Accueil</a></li>
+        <li class="li"><a href="#map">Carte</a></li>
+        <li class="li"><a href="#lore">Lore</a></li>
+        <li class="li"><a href="#connexion">Connexions</a></li>
+        <li class="li"><a href="#ennemis">Ennemis</a></li>
+        <li class="li"><a href="#boss">Boss</a></li>
+        <li class="li"><a href="#evenement">Évènements</a></li>
+        <li class="li"><a href="#video">Vidéos</a></li>
+        <li class="li"><button id="toggle-lightmode" class="lightmode-btn-header">Activer le mode clair</button></li>
+    </ul>
+
+    <div class="container" id="top">
+        <header class="banner-header">
+            <img src="../images/colisee_image.png" alt="Bannière Colisée des Fous" class="banner-image">
+            <h1 class="titre_page">Colisée des Fous</h1>
+            <h2 class="sous_titre">Une zone située au sommet des Frontières du Royaume. Il contient une arène où le Chevalier peut participer à trois épreuves dans lesquelles il affronte plusieurs vagues d'ennemis.
+
+            </h2>
+        </header>
+
+        <!-- Map -->
+        <section id="map">
+            <h2 class="titre_section">Carte</h2>
+            <img src="../images/colisee_carte.png" alt="Carte du Colisée des Fous">
+        </section>
+        
+        <!-- Lore de la zone -->
+        <section class="lore" id="lore">
+            <h2 class="titre_section">Lore</h2>
+            <p>Les guerriers les plus <span class="info">forts de tous les coins du monde</span> se retrouvent à Hallownest pour <span class="info">s'affronter</span> dans le Colisée, où seuls les <span class="info">plus forts survivent</span>. Les participants se voient offrir la chance de devenir plus qu'une simple bestiole idiote, alors qu'ils visent le titre de <span class="info">champion du Colisée</span>.
+            <br><br>
+            Le Colisée <span class="info">capture des insectes</span> pour les faire combattre dans l'arène et <span class="info">élève</span> également certaines créatures comme le Baldur Endurci et le Moustique Cuirassé pour le combat. Le <span class="info">Seigneur Fou</span> supervisait les combats dans l'arène, et certains insectes étaient déterminés à lui <span class="info">prouver leur force</span>. Les cadavres de ceux qui meurent dans l'arène sont <span class="info">jetés</span> dans le gouffre sous le Colisée.
+            <br><br>
+            Un jour, le Seigneur Fou est <span class="info">mort</span>, bien que son cadavre se trouve toujours sur le trône de l'arène. Le Colisée lui-même <span class="info">continue de fonctionner</span>, même après la propagation de L’<span class="info">Infection</span>. Bien que les participants soient infectés, la foule <span class="info">applaudit toujours</span> et les guerriers dans la fosse des guerriers sous le Colisée ne sont <span class="info">pas agressifs</span>.
+            </p>
+        </section>
+
+        <!-- Connexion -->
+        <section class="connexion" id="connexion">
+            <h2 class="titre_section">Connexions</h2>
+            <p>Le Colisée des Fous est relié à cette zone :</p>
+            <ul>
+                <li class="lien"><a href="kingdom-s-edge.html" class="lien">Frontières du Royaume</a> </li>
+            </ul>
+        </section>
+
+        <!-- Ennemis -->
+        <section class="ennemis" id="ennemis">
+            <h2 class="titre_section">Ennemis</h2>
+            <ul>
+                <li>
+                    <h2>Fou Cuirassé</h2>
+                    <img src="../monstres/colisee_des_fous/fou_cuirasse.png" alt="Fou Cuirassé" class="monstre">
+                    <p class="description_ennemi">Un guerrier combattant pour la gloire dans le Colisée des Fous. S'approche prudemment de son adversaire en se protégeant derrière son bouclier. Attendra le bon moment pour attaquer. Ce Colisée est un endroit étrange où certains insectes combattent jusqu'à la mort pendant que d'autres regardent les combats. Je ne comprends pas ce genre de rituels. Si vous décidez de vous y rendre, restez constamment sur vos gardes.</p>
+                </li>
+                <li>
+                    <h2>Fou Robuste</h2>
+                    <img src="../monstres/colisee_des_fous/fou_robuste.png" alt="Fou Robuste" class="monstre">
+                    <p class="description_ennemi">Un guerrier combattant pour la gloire dans le Colisée des Fous. Utilise des lames en forme de demi-lune pour abattre ses adversaires. Vous pouvez retourner les armes tournoyantes de ce guerrier contre lui, en les frappant de votre aiguillon. Très utile, si vous êtes bloqué ou que vous ne pouvez pas les esquiver.</p>
+                </li>
+                <li>
+                    <h2>Aspid Sauvage</h2>
+                    <img src="../monstres/colisee_des_fous/aspid_sauvage.png" alt="Aspid Sauvage" class="monstre">
+                    <p class="description_ennemi">Forme ancestrale et plus sauvage des Aspids. Autrefois considérées comme une espèce disparut, elles ont réapparu aux frontières du royaume. Ces adversaires cruels vous embusqueront et vous attaqueront sans relâche avec leur venin brûlant. C'est étonnant que leur descendance soit si faible. Si je décide un jour de faire des enfants, j'espère qu'est seront plus fort que moi...</p>
+                </li>
+                <li>
+                    <h2>Mouche Vengeresse</h2>
+                    <img src="../monstres/colisee_des_fous/mouche_vengeresse.png" alt="Mouche Vengeresse" class="monstre">
+                    <p class="description_ennemi">Un prédateur volant. Poursuis ses proies sans relâche. Ces féroces petits chasseurs pourchasseront même les créatures qui font plusieurs fois leur taille. Admirable! Cependant, j’en ai dévoré des centaines sans avoir fait le moindre effort, car ce sont des créatures très faibles.</p>
+                </li>
+                <li>
+                    <h2>Gruzzer Instable</h2>
+                    <img src="../monstres/colisee_des_fous/gruzzer_instable.png" alt="Gruzzer Instable" class="monstre">
+                    <p class="description_ennemi">Un Gruzzer dont le corps est enflé par l'infection. Son corps est prêt à éclater. Un horrible fluide visqueux et un gaz nocif commencent à couler plus haut. La source de cette pestilence existe-t-elle ? Si c'est le cas, je ne l'ai jamais vue.</p>
+                </li>
+                <li>
+                    <h2>Fou Massif</h2>
+                    <img src="../monstres/colisee_des_fous/fou_massif.png" alt="Fou Massif" class="monstre">
+                    <p class="description_ennemi">Un guerrier combattant pour la gloire dans le Colisée des Fous. Charge agressivement ses adversaires. Grand, volumineux et combattant pour sa vie. Ne sous-estimez pas ce combattant ! Il se déplace très rapidement malgré sa forte carrure. Etonnamment, le visage qu'il cache sous son masque est de toute beauté.</p>
+                </li>
+                <li>
+                    <h2>Fou Ailé</h2>
+                    <img src="../monstres/colisee_des_fous/fou_aile.png" alt="Fou Ailé" class="monstre">
+                    <p class="description_ennemi">Un guerrier combattant pour la gloire dans le Colisée des Fous. Vole hors de portée de son adversaire, puis s'élance avec son dard en avant pour tuer. Qu'est-ce que ces guerriers peuvent bien espérer trouver en combattant dans le Colisée ? Sont-ils des esclaves, ou des prisonniers, ou choisissent-ils de se battre de leur plein gré ?</p>
+                </li>
+                <li>
+                    <h2>Moustique Cuirassé</h2>
+                    <img src="../monstres/colisee_des_fous/moustique_cuirasse.png" alt="Moustique Cuirassé" class="monstre">
+                    <p class="description_ennemi">Un moustique endurcit, élevé dans le Colisée des Fous pour combattre. Plus difficile à tuer et plus agressif que son ancêre sauvage. Des créatures fortes et rapides ! Lorsqu'elles se penchent en arrière, vous pouvez choisir de vous écarter ou de vous préparer à contre-attaquer.</p>
+                </li>
+                <li>
+                    <h2>Belfly</h2>
+                    <img src="../monstres/colisee_des_fous/belfly.png" alt="Belfly" class="monstre">
+                    <p class="description_ennemi">Une créature possédant de fines ailes qui dissimulent un ventre très instable. Elles sonneront leur propre vie pour protéger leur territoire. Une créature coléreuse sans égard pour sa propre vie. Une créature qui ne connait pas la peur... peut-on vraiment l'appeler "proie" ?</p>
+                </li>
+                <li>
+                    <h2>Sautilleur</h2>
+                    <img src="../monstres/colisee_des_fous/sautilleur.png" alt="Sautilleur" class="monstre">
+                    <p class="description_ennemi">Une créature qui saute sur ses proies. Utilise son appendice allongé et pointu pour aspirer les fluides vitaux. Le ventre de ce voleur est rempli du sang qu'il a aspiré du corps d'autres bêtes. Si vous le maintenez au-dessus d'un feu, son ventre va s'accroître jusqu'à ce qu'il explose en un geyser de fluides.</p>
+                </li>
+                <li>
+                    <h2>Larve Caméléon</h2>
+                    <img src="../monstres/colisee_des_fous/larve _cameleon.png" alt="Larve Caméléon" class="monstre">
+                    <p class="description_ennemi">Imite l'apparence d'une créature inoffensive pour attirer ses proies. Attirer un ennemi en faisant semblant d'être une petite larve sans défense est une technique très rusée. Malheureusement pour elles, je dévore ce genre de larves dès que j'en trouve.</p>
+                </li>
+                <li>
+                    <h2>Baldur Endurci</h2>
+                    <img src="../monstres/colisee_des_fous/baldur_endurci.png" alt="Baldur Endurci" class="monstre">
+                    <p class="description_ennemi">Un Baldur endurci, élevé dans le Colisée des Fous pour combattre. Plus difficile à tuer et plus agressif que son ancêtre sauvage. Ces créatures... Je n'en ai jamais vu qui est atteint l'âge adulte. Je suppose qu'elles ne vivent pas assez longtemps pour cela.</p>
+                </li>
+                <li>
+                    <h2>Combattant Obble</h2>
+                    <img src="../monstres/colisee_des_fous/combattant_obble.png" alt="Combattant Obble" class="monstre">
+                    <p class="description_ennemi">Une créature élevée dans le Colisée des Fous. Bien qu'elle soit entraînée au combat, ses déplacements et ses attaques sont encore très chaotiques. Ces créatures se sont fabriqué un petit masque ! Une telle extravagence leur sera-t-elle vraiment utile ?</p>
+                </li>
+                <li>
+                    <h2>Mouche Vengeresse Enragée</h2>
+                    <img src="../monstres/colisee_des_fous/mouche_vengeresse_enragee.png" alt="Mouche Vengeresse Enragée" class="monstre">
+                    <p class="description_ennemi">Une Mouche Vengeresse dont le corps a été déformé par une infection persistante. Très agressive. Une infection qui se transmet de créature en créature et qui donne de la force et du courage. Cependant, l'infection semble aussi asservir toute volonté. Pourriez-vous faire un tel pacte ?</p>
+                </li>
+                <li>
+                    <h2>Loodle de la mort</h2>
+                    <img src="../monstres/colisee_des_fous/loodle_de_la_mort.png" alt="Loodle de la mort" class="monstre">
+                    <p class="description_ennemi">Loodle équipé d'un heaume. L'art de tuer lui a été enseigné. Ces créatures paraissent féroces, mais elles ont beaucoup de difficultés à viser correctement leur cible. Observez bien leurs mouvements et attaquez dès qu'une opportunité se présente. Gardez leur heaume comme trophée.</p>
+                </li>
+                <li>
+                    <h2>Garpede</h2>
+                    <img src="../monstres/colisee_des_fous/garpede.png" alt="Garpede" class="monstre">
+                    <p class="description_ennemi">Un fouisseur géant recouvert d'une carapace renforcée. Arpente inlassablement les tunnels du Nid-Profond. Dotées d'une force monstrueuses, ces créatures ignorent toutes les attaques que leur carapace cuirassée subit. Heureusement, si vous évitez de croiser leur chemin, elles vous laisseront en paix.</p>
+                </li>
+                <li>
+                    <h2>Mante Traître</h2>
+                    <img src="../monstres/colisee_des_fous/mante_traitre.png" alt="Mante Traître" class="monstre">
+                    <p class="description_ennemi">Une créature appartenant autrefois à la tribu des mantes religieuses. Il a été chassé et rendu fou par l'infection. Faire ou ne pas faire parti d'un tribu. Je ne comprends pas très bien ce que ça change ou comment ça fonctionne. Je ne fais moi-même partie d'aucune tribu !</p>
+                </li>
+                <li>
+                    <h2>Mante Petra</h2>
+                    <img src="../monstres/colisee_des_fous/mante_petra.png" alt="Mante Petra" class="monstre">
+                    <p class="description_ennemi">Une créature qui rôde dans les buissons. Attaque à distance en faisant tournoyer des faux de vent dans les airs. Elles vous attaquerons à distance sans relâche. Approchez vous d'elles et attaquez rapidement. Leur corps est fragile et peut être facilement transpercé avec la pointe de votre aiguillon.</p>
+                </li>
+                <li>
+                    <h2>Tourmenteur de l’Âme</h2>
+                    <img src="../monstres/colisee_des_fous/tourmenteur_de_l_ame.png" alt="Tourmenteur de l’Âme" class="monstre">
+                    <p class="description_ennemi">Un insecte très intelligent ! Utilise les connaissances arcaniques qu'elle possède pour transformer l'âme en des sorts vicieux. J'ai déjà entendu d'autre créatures parler de "l'âme", mais j'ignore de quoi il s'agit. Par exemple, je sais que la viande fraichement tuée à bien meilleur goût. Est-ce que c'est parce que "l'âme" s'y accroche encore ?</p>
+                </li>
+                <li>
+                    <h2>Erreur</h2>
+                    <img src="../monstres/colisee_des_fous/erreur.png" alt="Erreur" class="monstre">
+                    <p class="description_ennemi">Une créature qui était autrefois très intelligente. Déformée par une mauvaise utilisation de l'Ame. Ces créatures ont commis l'erreur de jouer avec l'âme des autres créatures. Maintenant déformées, elles rampent dans l'obscurité de leur sanctuaire comme des limaces, en espérant que leurs vieux frères leur créeront de nouveaux corps.</p>
+                </li>
+                <li>
+                    <h2>Folly</h2>
+                    <img src="../monstres/colisee_des_fous/folly.png" alt="Folly" class="monstre">
+                    <p class="description_ennemi">Une créature qui était autrefois très intelligente. Déformée par une mauvaise utilisation de l'Ame. J'ai entendu dire que ces fous recherchaient le secret de l'immortalité. Vivre éternellement... Je n'ai jamais rien entendu de si choquant et révoltant.</p>
+                </li>
+                <li>
+                    <h2>Manipulateur Voltaïque</h2>
+                    <img src="../monstres/colisee_des_fous/manipulateur_voltaique.png" alt="Manipulateur Voltaïque" class="monstre">
+                    <p class="description_ennemi">Un insecte cultivé. Il a adapté les enseignements du Sanctuaire de l'Âme en un art de combat mortel. Attaque en projetant des charges électriques.</p>
+                </li>
+                <li>
+                    <h2>Mawlek Inférieur</h2>
+                    <img src="../monstres/colisee_des_fous/mawlek_maussade.png" alt="Mawlek Inférieur" class="monstre">
+                    <p class="description_ennemi">Attaque en crachant de l’acide et en entaillant le corps de son ennemi avec ses pinces frontales. Si vous essayez de les affronter à distance, ces créatures cracheront des boules collantes et gluantes de suc gastrique ignoble. Approchez-vous rapidement et attaquez avec détermination.</p>
+                </li>
+                <li>
+                    <h2 class="dieu">Rôdeuse Pâle</h2>
+                    <img src="../monstres/colisee_des_fous/rodeuse_pale.png" alt="Rôdeuse Pâle" class="dieu_img" class="monstre">
+                    <p class="dieu" class="description_ennemi">Une championne oubliée du Colisée, retirée du monde à cause d'une étrange obsession. Cette étrange créature ne souffre pas de la maladie qui envahit les cavernes, elle n'en a même pas conscience. Sa folie est la sienne.</p>
+                </li>
+            </ul>
+        </section>
+
+    <!-- Boss -->
+    <section class="boss" id="boss">
+        <h2 class="titre_section">Boss de la Zone</h2>
+    
+        <div class="boss-selector">
+            <!-- Boutons pour sélectionner les bosses -->
+            <input type="radio" id="MoucheVengeresseRoyaleColisee" name="boss" checked>
+            <label for="MoucheVengeresseRoyaleColisee" class="btn">Mouche Vengeresse Royale</label>
+
+            <input type="radio" id="MereGruzColisee" name="boss" checked>
+            <label for="MereGruzColisee" class="btn">Mère Gruz</label>
+
+            <input type="radio" id="MawlekMaussadeColisee" name="boss" checked>
+            <label for="MawlekMaussadeColisee" class="btn">Mawlek Maussade</label>
+
+            <input type="radio" id="GuerrierDeLAmeColisee" name="boss" checked>
+            <label for="GuerrierDeLAmeColisee" class="btn">Guerrier de l’Âme</label>
+
+            <input type="radio" id="DompteurDeDieux" name="boss" checked>
+            <label for="DompteurDeDieux" class="btn">Dompteur de dieux</label>
+
+            <input type="radio" id="Oblobble" name="boss" checked>
+            <label for="Oblobble" class="btn">Oblobble</label>
+
+            <input type="radio" id="ZoteLeRedoutable" name="boss" checked>
+            <label for="ZoteLeRedoutable" class="btn">Zote Le Redoutable</label>
+    
+            <div class="boss-info">
+                <!-- Boss 1 -->
+                <div class="boss-content" id="MoucheVengeresseRoyaleColisee">
+                    <h2>Mouche Vengeresse Royale</h2>
+                    <img src="../monstres/colisee_des_fous/mouche_vengeresse_royale.png" alt="Mouche Vengeresse Royale">
+                    <p>Patriarche d'une colonie de mouches vengeresses. Fonce sur les intrus et pousse un cri perçant pour appeler du renfort si elles se sentent menacées. Une créature répugnante qui aime grignoter tout ce qu'elle trouve sur le sol poussiéreux des cavernes. Quand elles sont en danger, elles poussent un cri qui est très irritant. Je vous conseillerais de les tuer rapidement.</p>
+                </div>
+
+                <!-- Boss 2 -->
+                <div class="boss-content" id="MereGruzColisee">
+                    <h2>Mère Gruz</h2>
+                    <img src="../monstres/colisee_des_fous/mere_gruz.png" alt="Mère Gruz">
+                    <p>Un Gruzzer qui a atteint l'âge adulte, portant sa couvée dans son ventre. Attaque en projetant son énorme corps sur ses ennemis. Bizarrement, ce monstre ne pond pas ses œufs, mais les gardent dans son corps bien gras. Cette étrange pratique semble épuiser la créature, la rendant somnolente et vulnérable. Exploitez cette faiblesse !</p>
+                </div>
+
+                <!-- Boss 3 -->
+                <div class="boss-content" id="MawlekMaussadeColisee">
+                    <h2>Mawlek Maussade</h2>
+                    <img src="../monstres/colisee_des_fous/mawlek_maussade.png" alt="Mawlek Maussade">
+                    <p>Une bête féroce, mais extrêmement sociale. Elle devient agressive si elle ne peut pas s'amuser avec ceux de son espèce. J'entends parfois cette bête crier quand je rôde dans les cavernes, bien que je ne l'aie jamais vue de mes propres yeux. Qui appelle-t-elle de la sorte ? Pour autant que je sache, nul ne répond à ses cris.</p>
+                </div>
+
+                <!-- Boss 4 -->
+                <div class="boss-content" id="GuerrierDeLAmeColisee">
+                    <h2>Guerrier de l’Âme</h2>
+                    <img src="../monstres/colisee_des_fous/guerrier_de_l_ame.png" alt="Guerrier de l’Âme">
+                    <p>Les Guerriers de l'Âme font partie des Érudits du Sanctuaire de l'Âme qui améliorent leurs techniques de combat grâce à de l'Âme recueillie. ependant, contrairement aux autres Érudits du Sanctuaire, ils ne semblent pas se souvenir des origines de leurs pouvoirs.
+                    </p>
+                </div>
+
+                <!-- Boss 5 -->
+                <div class="boss-content" id="DompteurDeDieux">
+                    <h2>Dompteur de dieux</h2>
+                    <img src="../monstres/colisee_des_fous/dompteur_de_dieux.png" alt="Dompteur de dieux">
+                    <p>Le Dompteur de dieux est une guerrière vétérane du Colisée des Fous, assumant le rôle de cheffe de la dernière et la plus brutale épreuve. Elle compense sa petite taille par la force de sa Bête apprivoisée, aux côtés de laquelle elle combat. Elles présentent toutes deux des signes de L'Infection.
+                    </p>
+                </div>
+
+                <!-- Boss 6 -->
+                <div class="boss-content" id="Oblobble">
+                    <h2>Oblobble</h2>
+                    <img src="../monstres/colisee_des_fous/oblobble.png" alt="Oblobble">
+                    <p>Les Oblobbles sont des cousins bien plus grands et larges des Obbles. Ils sont capables de se déplacer plus rapidement que leur homologue miniature et de tirer bien plus de projectiles. Le Chevalier peut seulement en rencontrer dans le Colisée des Fous, au bout de l'Épreuve du Conquérant. Ces Oblobbles sont élevés et enchaînés dans le Colisée pour participer à la lutte contre les gladiateurs. Tuer l'un enrage l'autre et le fait bouger et attaquer encore plus rapidement. Comme la plupart des autres créatures d'Hallownest, elles sont infectées, bien qu'elles n'explosent pas à leur mort.
+                    </p>
+                </div>
+
+                <!-- Boss 7 -->
+                <div class="boss-content" id="ZoteLeRedoutable">
+                    <h2>Zote Le Redoutable</h2>
+                    <img src="../monstres/colisee_des_fous/zote_le_redoutable.png" alt="Zote Le Redoutable">
+                    <p>Zote est un voyageur étranger qui est venu dans le royaume d'Hallownest pour tenir une promesse. Il a baptisé son aiguillon "Portemort" parce que les noms sont censés avoir un pouvoir. Malheureusement, comme il est fait de bois de coquillage, il ne peut pas infliger de dégâts. Bien qu'il prétende être le guerrier le plus fort du pays, il se retrouve piégé par de trop faibles ennemis ou s'attribue la gloire des exploits d'un autre insecte. Il considère Le Chevalier comme étant inférieur à lui et l'accuse de se mettre constamment en travers de son chemin.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Évènements -->
+    <section id="evenement">
+        <h2 class="titre_section">Évènements</h2>
+        <ul class="liste">
+            <li>Obtention d'une clé simple</li>
+            <li>Obtention d'un minerai pâle</li>
+            <br>
+            <li>Rencontre de Nigaud</li>
+            <li>Rencontre de Tiso</li>
+            <li>Rencontre de Zote le Redoutable #5</li>
+        </ul>
+    </section>
+
+        <!-- Vidéos -->
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/rvZDgSZ2twg?si=0KG7EbcAw8bKV94x" class="lien_titre">Épreuve des Guerriers</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/rvZDgSZ2twg?si=0KG7EbcAw8bKV94x" title="Vidéo de l’Épreuve des Guerriers"></iframe>
+        </section>
+
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/MisoWMKphk4?si=8DKgxuZOS6NDdwb8" class="lien_titre">Épreuve des Conquérants</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/MisoWMKphk4?si=8DKgxuZOS6NDdwb8" title="Vidéo de l’Épreuve des Conquérants"></iframe>
+        </section>
+
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/jAd_WsegeR4?si=Y2hqTk2xDvCgMhM3" class="lien_titre">Épreuve des Fous</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/jAd_WsegeR4?si=Y2hqTk2xDvCgMhM3" title="Vidéo de l’Épreuve des Fous"></iframe>
+        </section>
+
+        <!-- Citation -->
+        <footer>
+            <p class="quote">"Je vois qu’un autre guerrier a trouvé son chemin vers notre magnifique Colisée. La destination finale, pour tous ceux qui sont à la recherche de combats intenses et fatals."<br><br>-Nigaud</p>
+        </footer>
+    </div>
+    <script src="../js/script_lightmode.js" defer></script>
+</body>
+</html>

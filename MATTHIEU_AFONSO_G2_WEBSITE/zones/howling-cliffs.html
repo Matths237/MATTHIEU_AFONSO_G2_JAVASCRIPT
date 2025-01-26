@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zone - Falaises Hurlantes</title>
+    <link href="https://fonts.cdnfonts.com/css/trajan-pro" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style_site.css">
+    <link rel="stylesheet" href="../css/css_lightmode.css">
+</head>
+
+<body>
+    <ul class="ul">
+        <li class="li"><a class="active" href="../menu_principal.html">Retour</a></li>
+        <li class="li"><a href="#top">Accueil</a></li>
+        <li class="li"><a href="#map">Carte</a></li>
+        <li class="li"><a href="#lore">Lore</a></li>
+        <li class="li"><a href="#connexion">Connexions</a></li>
+        <li class="li"><a href="#ennemis">Ennemis</a></li>
+        <li class="li"><a href="#boss">Boss</a></li>
+        <li class="li"><a href="#evenement">Évènements</a></li>
+        <li class="li"><a href="#video">Vidéos</a></li>
+        <li class="li"><button id="toggle-lightmode" class="lightmode-btn-header">Activer le mode clair</button></li>
+    </ul>
+
+    <div class="container" id="top">
+        
+        <header class="banner-header">
+            <img src="../images/cliffs_image.png" alt="Bannière Falaises Hurlantes" class="banner-image">
+            <img src="../images/cliffs.png" alt="Falaises Hurlantes" class="main-image" width="500">
+            <h1 class="titre_page">Falaises Hurlantes</h1>
+            <h2 class="sous_titre">Une région peu peuplée située au nord-ouest d'Hallownest, séparant le royaume d'un vaste territoire inconnu.</h2>
+        </header>
+
+        <!-- Map -->
+        <section id="map">
+            <h2 class="titre_section">Carte</h2>
+            <img src="../images/cliffs_carte.png" alt="Carte des Falaises Hurlantes">
+        </section>
+        
+        <!-- Lore de la zone -->
+        <section class="lore" id="lore">
+            <h2 class="titre_section">Lore</h2>
+            <p>Le <span class="info">Roi Pâle</span> a accordé la sensibilité aux insectes sauvages par l'intermédiaire de sa <span class="info">balise</span>. Ceux qui ont choisi de quitter le royaume ont <span class="info">perdu leur mémoire</span>. La plupart des insectes vivant dans les terres désolées à l'extérieur d'Hallownest ne sont pas intelligents, car la <span class="info">sapience</span> semble être une <span class="info">faiblesse</span> dans leur environnement.
+            </p>
+        </section>
+
+        <!-- Connexion -->
+        <section class="connexion" id="connexion">
+            <h2 class="titre_section">Connexions</h2>
+            <p>Les Falaises Hurlantes sont reliées à ces zones :</p>
+            <ul>
+                <li class="lien"><a href="greenpath.html" class="lien">Vertchemin</a> </li>
+                <li class="lien"><a href="dirtmouth.html" class="lien">Dirtmouth</a> </li>
+            </ul>
+        </section>
+
+        <!-- Ennemis -->
+        <section class="ennemis" id="ennemis">
+            <h2 class="titre_section">Ennemis</h2>
+            <ul>
+                <li>
+                    <h2>Baldur</h2>
+                    <img src="../monstres/falaises_hurlantes/baldur.png" alt="Baldur" class="monstre">
+                    <p class="description_ennemi">Une créature agressive dès la naissance. Se met en boule et se propulse sur les intrus qui s’aventurent sur son territoire. Les chasseurs plus jeunent se réjouissent d’attraper ces créatures pour les faire rouler sur le sol et jouer avec. Si cela vous donne envie, je vous encourage à faire la même chose.</p>
+                </li>
+                <li>
+                    <h2>Crawlid</h2>
+                    <img src="../monstres/falaises_hurlantes/crawlid.png" alt="Crawlid" class="monstre">
+                    <p class="description_ennemi">Un charognard timide. Arpente les cavernes à la recherche de nourriture. Triste et pitoyable. Mérite à peine d’être tué.</p>
+                </li>
+                <li>
+                    <h2>Ancien Baldur</h2>
+                    <img src="../monstres/falaises_hurlantes/ancien_baldur.png" alt="Ancien Baldur" class="monstre">
+                    <p class="description_ennemi">Une créature volumineuse, recouverte d'une armure épaisse. Se rétracte à l'intérieur de sa coquille lorsqu'elle est menacée. Au fur et à mesure qu'elles vieillissent, ces créatures deviennent trop lourdes et grumeleuses pour pouvoir rouler comme elles le souhaitent. Alors, elles se recroquevillent et s'isolent du monde. À quoi peuvent-elles penser à l'intérieur de leur coquille ? Peut-être à des temps meilleurs.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Malmeneuse</h2>
+                    <img src="../monstres/falaises_hurlantes/carcasse_malmeneuse.png" alt="Carcasse Malmeneuse" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'un insecte, animé par une force étrange. Attaque férocement toutes les créatures sur son chemin qui ne sont pas infectées. Ces corps sans vie ambulants sont remplis d'une brume orange épaisse. Ça a un goût un peu sucré et maladif. C'était vraiment immonde. Je vous conseillerais de ne pas les manger après les avoir tués.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Cornue</h2>
+                    <img src="../monstres/falaises_hurlantes/carcasse_cornue.png" alt="Carcasse Cornue" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'un insecte, animé par une force étrange. Utilise sa longue corne pour attaquer toutes les créatures sur son chemin qui ne sont pas infectées. Même après leur mort, ces insectes sont tellement arrogants. Ils sont beaucoup trop fiers de leur longue corne ! J'aime bien la leur arracher.</p>
+                </li>
+                <li>
+                    <h2>Carcasse Sauteuse</h2>
+                    <img src="../monstres/falaises_hurlantes/carcasse_sauteuse.png" alt="Carcasse Sauteuse" class="monstre">
+                    <p class="description_ennemi">La carapace vide d'un insecte, animé par une force étrange. Il saute et attaque instinctivement toutes les créatures sur son chemin qui ne sont pas infectées. Les insectes de l'ancien Hallownest ne chassaient pas eux-mêmes leur nourriture. Ils préféraient qu'elle leur soit directement apportée. Cela explique pourquoi ils étaient si faibles. Cela explique aussi pourquoi leur royaume s'est effondré pour disparaître dans l'oubli.</p>
+                </li>
+                <li>
+                    <h2>Tiktik</h2>
+                    <img src="../monstres/falaises_hurlantes/tiktik.png" alt="Tiktik" class="monstre">
+                    <p class="description_ennemi">Une créature se servant de ses petites griffes acérées pour grimper le long des murs et sur les toits. Passe son temps à arpenter les routes et les cavernes proches de la surface de ce royaume. Si vous êtes patient, il vous suffit d’attendre qu’elles viennent à vous pour les tuer.</p>
+                </li>
+                <li>
+                    <h2>Mouche Vengeresse</h2>
+                    <img src="../monstres/falaises_hurlantes/mouche_vengeresse.png" alt="Mouche Vengeresse" class="monstre">
+                    <p class="description_ennemi">Un prédateur volant. Poursuis ses proies sans relâche. Ces féroces petits chasseurs pourchasseront même les créatures qui font plusieurs fois leur taille. Admirable! Cependant, j’en ai dévoré des centaines sans avoir fait le moindre effort, car ce sont des créatures très faibles.</p>
+                </li>
+            </ul>
+        </section>
+
+    <!-- Boss -->
+    <section class="boss" id="boss">
+        <h2 class="titre_section">Boss de la Zone</h2>
+    
+        <div class="boss-selector">
+            <!-- Boutons pour sélectionner les bosses -->
+            <input type="radio" id="Gorb" name="boss" checked>
+            <label for="Gorb" class="btn">Gorb</label>
+    
+            <div class="boss-info">
+                <!-- Boss 1 -->
+                <div class="boss-content" id="Gorb">
+                    <h2 class="boss_reve">Gorb</h2>
+                    <img src="../monstres/falaises_hurlantes/gorb.png" alt="Vaisseau Corrompu" class="boss_img_reve">
+                    <p class="boss_reve">Gorb est l'un des Guerrier des Rêves. Aussi apellé "le Grand Sage", il était une créature mystique avec un cerveau distendu qui prétendait être omniscient. Il incitait les autres à vénérer son esprit et à s'élever avec lui vers un autre niveau d'existence. Sa dépouille a été enterrée sur une colline au sommet des Falaises Hurlantes, sous une pierre tombale gravée à son effigie.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Évènements -->
+    <section id="evenement">
+        <h2 class="titre_section">Évènements</h2>
+        <ul class="liste">
+            <li>Obtention d'un morceau de masque</li>
+            <br>
+            <li class="grimm">Accès à Chambre de la Lanterne du Cauchemar (DLC)</li>
+            <br>
+            <li>Station Coléoptère : Tanière des Coléoptères</li>
+            <br>
+            <li>Rencontre du Maître d’Aiguillon : Mato</li>
+            <li>Rencontre de Monsieur Champignon #4</li>
+        </ul>
+    </section>
+
+        <!-- Vidéo -->
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/HB8OF9FYfJA?si=DqBepATRvQ0boz2J" class="lien_titre">Combat contre Gorb</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/HB8OF9FYfJA?si=DqBepATRvQ0boz2J" title="Vidéo du combat contre Gorb"></iframe>
+        </section>
+
+        <!-- Citation -->
+        <footer>
+            <p class="quote">"Profitez-vous bien de cet air vivifiant ? Nous sommes tout près des frontières d’Hallownest et des plaines désolées qui l’entourent"<br><br>-Cornifer</p>
+        </footer>
+    </div>
+    <script src="../js/script_lightmode.js" defer></script>
+</body>
+</html>

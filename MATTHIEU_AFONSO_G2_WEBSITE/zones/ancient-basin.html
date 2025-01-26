@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zone - Bassin Ancestral</title>
+    <link href="https://fonts.cdnfonts.com/css/trajan-pro" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style_site.css">
+    <link rel="stylesheet" href="../css/css_lightmode.css">
+</head>
+
+<body>
+    <ul class="ul">
+        <li class="li"><a class="active" href="../menu_principal.html">Retour</a></li>
+        <li class="li"><a href="#top">Accueil</a></li>
+        <li class="li"><a href="#map">Carte</a></li>
+        <li class="li"><a href="#lore">Lore</a></li>
+        <li class="li"><a href="#connexion">Connexions</a></li>
+        <li class="li"><a href="#ennemis">Ennemis</a></li>
+        <li class="li"><a href="#boss">Boss</a></li>
+        <li class="li"><a href="#evenement">Évènements</a></li>
+        <li class="li"><a href="#video">Vidéos</a></li>
+        <li class="li"><button id="toggle-lightmode" class="lightmode-btn-header">Activer le mode clair</button></li>
+    </ul>
+
+    <div class="container" id="top">
+        
+        <header class="banner-header">
+            <img src="../images/ancien_image.png" alt="Bannière Bassin Ancestral" class="banner-image">
+            <img src="../images/ancien.png" alt="Bassin Ancestral" class="main-image" width="500">
+            <h1 class="titre_page">Bassin Ancestral</h1>
+            <h2 class="sous_titre">Une région dépourvue de vie, à l'exception de<br>quelques formes de vie gravement infectées.</h2>
+        </header>
+        
+
+        <!-- Map -->
+        <section id="map">
+            <h2 class="titre_section">Carte</h2>
+            <img src="../images/ancien_carte.png" alt="Carte du Bassin Ancestral">
+        </section>
+        
+        <!-- Lore de la zone -->
+        <section class="lore" id="lore">
+            <h2 class="titre_section">Lore</h2>
+            <p>Une vieille région, le <span class=info>Bassin Ancestral</span> est rempli de vieilles structures et de routes qui ont été formées comme si la roche elle-même possédait une volonté. Le <span class=info>Roi Pâle</span> a construit son palais dans le Bassin Ancestral, et c'est à partir de là que le royaume d'Hallownest s'est étendu. Il régnait sur Hallownest depuis le <span class=info>Palais Blanc</span>, qu'il quittait rarement. Le palais a <span class=info>disparu</span> en même temps que le Roi Pâle après la réapparition de l'<span class=info>Infection</span>.
+            </p>
+        </section>
+
+        <!-- Connexion -->
+        <section class="connexion" id="connexion">
+            <h2 class="titre_section">Connexions</h2>
+            <p>Le Bassin Ancestral est relié à ces zones :</p>
+            <ul>
+                <li class="lien"><a href="city-of-tears.html" class="lien">Cité des Larmes</a> </li>
+                <li class="lien"><a href="deepnest.html" class="lien">Nid-profond</a> </li>
+                <li class="lien"><a href="kingdom-s-edge.html" class="lien">Frontières du Royaume</a> </li>
+                <li class="lien"><a href="royal-waterways.html" class="lien">Voies d’Eau Royales</a> </li>
+                <li class="lien"><a href="the-abyss.html" class="lien">Les Abysses</a> </li>
+                <li class="lien"><a href="white-palace.html" class="lien">Palais Blanc</a> </li>
+            </ul>
+        </section>
+
+        <!-- Ennemis -->
+        <section class="ennemis" id="ennemis">
+            <h2 class="titre_section">Ennemis</h2>
+            <ul>
+                <li>
+                    <h2>Aspid Chasseresse</h2>
+                    <img src="../monstres/bassin_ancestral/aspid_chasseresse.png" alt="Aspid Chasseresse" class="monstre">
+                    <p class="description_ennemi">Une créature chassant souvent en groupe. Terrasse ses proies en crachant un liquide corrosif. Des prédateurs astucieux qui essaieront de vous tuer à distance. Chargez dans le tas et découpez-les. Vous verrez que ce ne sont pas des créatures si rusées, une fois qu'elles sont mortes.</p>
+                </li>
+                <li>
+                    <h2>Belfly</h2>
+                    <img src="../monstres/bassin_ancestral/belfly.png" alt="Belfly" class="monstre">
+                    <p class="description_ennemi">Une créature possédant de fines ailes qui dissimulent un ventre très instable. Elles sonneront leur propre vie pour protéger leur territoire. Une créature coléreuse sans égard pour sa propre vie. Une créature qui ne connait pas la peur... peut-on vraiment l'appeler "proie" ?</p>
+                </li>
+                <li>
+                    <h2>Bulle Infectée</h2>
+                    <img src="../monstres/bassin_ancestral/bulle_infectee.png" alt="Bulle Infectée" class="monstre">
+                    <p class="description_ennemi">Cellule unique infectée. Possède un esprit simple. Elle peut flotter en se servant des gaz de son corps. L’infection qui se propage dans les veines mortes du royaume... a-t-elle un esprit ? Produit-elle de l’Âme ? Est-ce vraiment vivant ?</p>
+                </li>
+                <li>
+                    <h2>Mawlek Inférieur</h2>
+                    <img src="../monstres/bassin_ancestral/mawlek_inferieur.png" alt="Mawlek Inférieur3" class="monstre">
+                    <p class="description_ennemi">Attaque en crachant de l’acide et en entaillant le corps de son ennemi avec ses pinces frontales. Si vous essayez de les affronter à distance, ces créatures cracheront des boules collantes et gluantes de suc gastrique ignoble. Approchez-vous rapidement et attaquez avec détermination.</p>
+                </li>
+                <li>
+                    <h2>Blob Parasite</h2>
+                    <img src="../monstres/bassin_ancestral/blob_parasite.png" alt="Blob Parasite" class="monstre">
+                    <p class="description_ennemi">Organisme unicellulaire, complètement infecté. Erre sans but. De l’air particulièrement étrange provenant d’en haut s’infiltre dans Hallownest depuis des années. Une partie de cet air est devenue liquide, et une partie de ce liquide est devenue chair, et cette chair a pris vie. Je ne sais pas trop quoi penser de tout cela.</p>
+                </li>
+                <li>
+                    <h2>Mawlurk</h2>
+                    <img src="../monstres/bassin_ancestral/mawlurk.png" alt="Mawlurk" class="monstre">
+                    <p class="description_ennemi">Une grande créature immobile. Crache du venin de manière frénétique quand des intrus s’approchent de trop près. Comment ces idiotes ont-elles perdu leurs pattes ? Je suppose qu’il est possible de perdre n’importe quoi quand on y met vraiment du sien.</p>
+                </li>
+                <li>
+                    <h2>Rampant des Ombres</h2>
+                    <img src="../monstres/bassin_ancestral/rampant_des_ombres.png" alt="Rampant des Ombres" class="monstre">
+                    <p class="description_ennemi">Une créature qui arpente uniquement des endroits profondément enfouis sous terre et plongés dans l’obscurité. Elle n’a jamais été vue en train de boire ou manger quoi que ce soit. -Ces petits rampants sont faibles et ne présentent aucune menace, mais quelque chose à leur sujet me perturbe. La façon que ces créatures ont de se déplacer et ces bruits étranges qu’elles font... tellement bizarre.</p>
+                </li>
+            </ul>
+        </section>
+
+    <!-- Boss -->
+    <section class="boss" id="boss">
+        <h2 class="titre_section">Boss de la Zone</h2>
+    
+        <div class="boss-selector">
+            <!-- Boutons pour sélectionner les bosses -->
+            <input type="radio" id="VaisseauCorrompu" name="boss" checked>
+            <label for="VaisseauCorrompu" class="btn">Le Vaisseau Corrompu</label>
+    
+            <input type="radio" id="ProcheDisparu" name="boss">
+            <label for="ProcheDisparu" class="btn">Proche Disparu</label>
+    
+            <div class="boss-info">
+                <!-- Boss 1 -->
+                <div class="boss-content" id="VaisseauCorrompu">
+                    <h2>Le Vaisseau Corrompu</h2>
+                    <img src="../monstres/bassin_ancestral/vaisseau_corrompu.png" alt="Vaisseau Corrompu">
+                    <p>Le Vaisseau Corrompu était autrefois un vaisseau, tout comme le Chevalier, créé par le Roi pâle et la Dame blanche. Il existe de nombreux vaisseaux brisés dans les Abysses. Les vaisseaux ont été créés pour accomplir une tâche, celle de contenir l'Infection, mais de nombreux vaisseaux ont échoué et ont péri ou se sont brisés parce qu'ils n'étaient pas assez purs pour contenir son pouvoir - pour contenir l'Infection, le vaisseau doit être pur, il doit être complètement creux, ce qui implique qu'un vaisseau doit avoir été rempli par le Néant pour être pur et creux. <br><br>
+                    Lorsque l'on rencontre le Vaisseau Corrompu, on peut penser qu'il s'agit d'un simple cadavre de vaisseau à la tête brisée. Mais dès que l'on entre dans l'arène, le chemin que emprunté se referme, le sol commence à trembler et se remplit de poussière, et des Blob Parasite apparaissent et commencent à s'accumuler dans la tête brisée du vaisseau qui deviendra bientôt le Vesseau Corrompu. <br><br>
+                    Une fois que vous aurez vaincu le Vaisseau Corrompu, son cadavre restera au sol et vous pourrez utiliser l'aiguillon des rêves pour déclencher un combat de boss de rêve contre le Proche Disparu, une autre variante du Vaisseau brisé.</p>
+                </div>
+    
+                <!-- Boss 2 -->
+                <div class="boss-content" id="ProcheDisparu">
+                    <h2 class="boss_reve">Le Proche Disparu (rêves)</h2>
+                    <img src="../monstres/bassin_ancestral/proche_disparu.png" alt="Proche Disparu" class="boss_img_reve">
+                    <p class="boss_reve">Le Proche Disparu est ce qu'était le Vaisseau Corrompu avant d'être infecté. Il s'agissait d'un vaisseau qui avait réussi à s'échapper des Abysses, comme le Chevalier. Malheureusement, comme il n'était pas complètement creux, il a été infecté dans le Bassin Ancestral par des Blob Parasite et est devenu le Vaisseau Corrompu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Évènements -->
+    <section id="evenement">
+        <h2 class="titre_section">Évènements</h2>
+        <ul class="liste">
+            <li>Obtention des Ailes de Monarque</li>
+            <li>Obtention d'une clé simple</li>
+            <li>Obtention d'un minerai pâle</li>
+            <br>
+            <li>Accès aux Abysses</li>
+            <li>Accès au Palais Blanc</li>
+            <li>Accès au Tramway</li>
+            <br>
+            <li>Station Coléoptère : Station Cachée</li>
+            <br>
+            <li>Rencontre de Cloth</li>
+            <li>Rencontre de Monsieur Champignon #5</li>
+        </ul>
+    </section>
+
+        <!-- Vidéos -->
+        <section class="video" id="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/XpXWvpCP5Rk?si=E1TnoGE9S6ZF2p5x" class="lien_titre">Combat contre le Vaisseau Corrompu</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/XpXWvpCP5Rk?si=E1TnoGE9S6ZF2p5x" title="Vidéo du combat contre le Vaisseau Corrompu"></iframe>
+        </section>
+
+        <section class="video">
+            <h2 class="titre_section"> <a target="_blank" href="https://youtu.be/QFQZd9-mOec?si=iolGEf2Yx38SuX8J" class="lien_titre">Combat contre le Proche Disparu</a></h2>
+            <iframe width="560" height="315" src="https://youtu.be/QFQZd9-mOec?si=iolGEf2Yx38SuX8J" title="Vidéo du combat contre le Proche Disparu"></iframe>
+        </section>
+
+        <!-- Citation -->
+        <footer>
+            <p class="quote">"Sais-tu que les cavernes justes en dessous de la ville s’étendent jusqu’au coeur d’Hallownest ? Je ne sais que très peu de choses à ce sujet, car rares sont ceux qui ont osé s’aventurer aussi profondément. Plus rares encore, sont ceux qui sont revenus. Ils ont parlé de cavernes et de chemins incroyablement anciens, formés comme si la roche elle-même possédait une volonté propre."<br><br>-L'Ancien</p>
+        </footer>
+    </div>
+    <script src="../js/script_lightmode.js" defer></script>
+</body>
+</html>
