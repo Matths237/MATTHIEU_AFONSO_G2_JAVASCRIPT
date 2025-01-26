@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hallownest</title>
+    <link href="https://fonts.cdnfonts.com/css/trajan-pro" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_site.css">
+    <link rel="stylesheet" href="css/css_lightmode.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="titre">Hallownest's Info</h1>
+            <p class="intro">Un royaume mystérieux aux secrets enfouis...</p> <br>
+            <p class="intro">Cliquer sur la zone voulue pour voir plus d'infos.</p>
+        </header>
+
+        <button id="toggle-lightmode" class="lightmode-btn">Activer le mode clair</button>
+        
+        <section class="map-section">
+            <img src="images/hallownest_map_fr.png" alt="Carte de Hallownest" usemap="#hallownest" height="695" width="1068">
+            <map name="hallownest">
+                <area shape="poly" coords="152,20 352,20 352,97 312,97 312,162 259,162, 259,132 204,132 152,97" href="zones/howling-cliffs.html" alt="Falaises Hurlantes">
+                <area shape="poly" coords="378,86 539,86 539,162 324,162 324,112 381,112" href="zones/dirtmouth.html" alt="Dirtmouth">
+                <area shape="poly" coords="247,146 247,178 374,178 374,239 324,261 223,261 211,247 193,262 181,262 167,249 167,201 43,201 56,146" href="zones/greenpath.html" alt="Vertchemin">
+                <area shape="poly" coords="210,275 386,275 386,256 417,256 417,315 341,315 341,366 283,366 283,315 209,315" href="zones/fog-canyon.html" alt="Brumes-Canyon">
+                <area shape="poly" coords="875,512 1030,512 1049,532 1049,600 1036,619 875,619" href="zones/the-hive.html" alt="La Ruche">
+                <area shape="poly" coords="596,573 694,573 694,594 694,613 792,613 792,686 542,686 540,676 414,676 414,617 516,617 516,606 596,606" href="zones/ancient-basin.html" alt="Bassin Ancestral">
+                <area shape="poly" coords="553,102 640,101 610,57 651,43 719,43 719,9 762,9 762,107 800,119 809,156 722,156 722,190 766,191 766,220 641,220 641,127 553,126" href="zones/crystal-peak.html" alt="Mont Cristal">
+                <area shape="poly" coords="629,269 561,269 561,250 386,250 386,194 402,176 629,173" href="zones/forgotten-crossroads.html" alt="Routes Oubliées">
+                <area shape="poly" coords="811,228 811,171 917,171 917,261 773,261 773,270 642,270 642,230" href="zones/resting-grounds.html" alt="Repos Éternel">
+                <area shape="poly" coords="546,262 546,292 746,292 717,292 779,339 786,339 786,274 812,274 812,378 874,378 874,435 771,435 771,440 506,440 506,262" href="zones/city-of-tears.html" alt="Cité des Larmes">
+                <area shape="poly" coords="197,277 197,322 270,322 270,407 64,407 47,394 47,336 62,320 69,296 86,282 104,277" href="zones/queen-s-gardens.html" alt="Jardins de la Reine">
+                <area shape="poly" coords="128,418 330,418 330,425 370,427 370,466 391,466 391,493 338,493 338,572 416,572 416,599 192,599 180,586 180,566 59,566 59,598 7,598 7,485 24,471 102,473 102,511 128,511" href="zones/deepnest.html" alt="Nid-profond">
+                <area shape="poly" coords="506,447 849,447 849,476 821,476 821,532 695,533 695,564 595,564 595,514 472,514 472,462 506,462" href="zones/royal-waterways.html" alt="Voies d’Eau Royales">
+                <area shape="poly" coords="932,402 1059,402 1059,501 865,505 864,598 754,598 756,572 829,572 829,485 882,483 882, 348 833,348 833,311 881,288 932,288" href="zones/kingdom-s-edge.html" alt="Frontières du Royaume">
+                <area shape="poly" coords="426,260 469,260 469,288 495,288 495,456 467,456 467,493 397,493 397,410 282,410 282,375 349, 375 349,336 425,336" href="zones/fungal-wastes.html" alt="Caverne Nocive">
+            </map>
+        </section>
+
+        <footer>
+            <p class="quote">"Nos routes sont entrelacées, mais se sépareront à la fin..."</p>
+        </footer>
+
+    </div>
+    <script src="js/script_lightmode.js" defer></script>
+</body>
+</html>

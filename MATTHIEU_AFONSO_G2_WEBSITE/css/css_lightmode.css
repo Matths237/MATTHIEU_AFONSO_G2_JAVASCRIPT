@@ -1,0 +1,148 @@
+/* Lightmode */
+
+body.light-mode no-transition {
+    transition: none !important;
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #00061f;
+}
+
+body.light-mode .lien {
+    color: #001e98;
+}
+
+body.light-mode .lien:hover {
+    color: #8d8dff;
+}
+
+body.light-mode .lien_titre {
+    color: #001e98;
+}
+
+body.light-mode .lien_titre:hover {
+    color: #8d8dff;
+}
+
+body.light-mode .titre {
+    color: #00061f;
+}
+
+body.light-mode .intro {
+    color: #00061f;
+}
+
+body.light-mode .quote {
+    color: #5f513f;
+}
+
+body.light-mode .titre_section {
+    color: #00061f;
+}
+
+body.light-mode .info {
+    color: #c15c09;
+}
+
+body.light-mode .description_ennemi {
+    color: #00061f;
+}
+
+body.light-mode .liste {
+    border: 2px solid #00061f;
+}
+
+body.light-mode .active {
+    background-color: #5959ff;
+}
+
+body.light-mode .active a {
+    color: #ffffff;
+}
+
+body.light-mode li {
+    color: #00061f;
+}
+
+body.light-mode .li a {
+    color: #00061f;
+}
+
+body.light-mode .ul .li a:hover {
+    background-color: #d8d8d8;
+}
+
+body.light-mode .ul .li .active {
+    color: #fff9e0;
+}
+
+body.light-mode .ul .li .active:hover {
+    background-color: #3333cc;
+}
+
+body.light-mode ul {
+    background-color: #ffffff;
+}
+
+body.light-mode .boss_reve {
+    color: #ae007a;
+}
+
+body.light-mode .grimm {
+    color: #b40000;
+}
+
+body.light-mode .dieu {
+    color: #b49900;
+}
+
+body.light-mode .sous_titre {
+    color: #fff9e0;
+}
+
+body.light-mode .banner-image {
+    opacity: 100%;
+}
+
+body.light-mode h2 {
+    color: #00061f;
+}
+
+body.light-mode p {
+    color: #00061f;
+}
+
+/* Style du bouton sur la page principale*/
+.lightmode-btn {
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4050ff;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    position: fixed; 
+    bottom : 20px; 
+    left: 7px; 
+}
+
+.lightmode-btn:hover {
+    background-color: #3333cc;
+}
+
+/* Style du bouton sur les pages des zones*/
+
+.lightmode-btn-header {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #5959ff;
+}
+
+.lightmode-btn-header:hover {
+    background-color: #3333cc;
+}
+
